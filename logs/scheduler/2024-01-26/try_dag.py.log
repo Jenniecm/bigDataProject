@@ -1,0 +1,28 @@
+[2024-01-26T20:12:43.467+0100] {processor.py:161} INFO - Started process (PID=18190) to work on /home/ubuntu/airflow/dags/try_dag.py
+[2024-01-26T20:12:43.469+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/try_dag.py for tasks to queue
+[2024-01-26T20:12:43.475+0100] {logging_mixin.py:188} INFO - [2024-01-26T20:12:43.472+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/try_dag.py
+[2024-01-26T20:12:44.622+0100] {logging_mixin.py:188} INFO - [2024-01-26T20:12:44.613+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/try_dag.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/try_dag.py", line 5, in <module>
+    from airflow.contrib.operators.dataproc_operator import DataprocSubmitJobOperator
+ImportError: cannot import name 'DataprocSubmitJobOperator' from 'airflow.contrib.operators.dataproc_operator' (unknown location)
+[2024-01-26T20:12:44.623+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/try_dag.py
+[2024-01-26T20:12:44.744+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/try_dag.py took 1.283 seconds
+[2024-01-26T20:16:53.243+0100] {processor.py:161} INFO - Started process (PID=18335) to work on /home/ubuntu/airflow/dags/try_dag.py
+[2024-01-26T20:16:53.249+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/try_dag.py for tasks to queue
+[2024-01-26T20:16:53.251+0100] {logging_mixin.py:188} INFO - [2024-01-26T20:16:53.250+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/try_dag.py
+[2024-01-26T20:16:54.645+0100] {logging_mixin.py:188} INFO - [2024-01-26T20:16:54.634+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/try_dag.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/try_dag.py", line 5, in <module>
+    from airflow.contrib.operators.dataproc import DataprocSubmitJobOperator
+ModuleNotFoundError: No module named 'airflow.contrib.operators.dataproc'
+[2024-01-26T20:16:54.648+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/try_dag.py
+[2024-01-26T20:16:54.731+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/try_dag.py took 1.503 seconds

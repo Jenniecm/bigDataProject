@@ -1,0 +1,37 @@
+[2024-01-30T13:50:03.743+0100] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jeniferhdfs.submit_spark_job scheduled__2024-01-29T00:00:00+00:00 [queued]>
+[2024-01-30T13:50:03.764+0100] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jeniferhdfs.submit_spark_job scheduled__2024-01-29T00:00:00+00:00 [queued]>
+[2024-01-30T13:50:03.764+0100] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2024-01-30T13:50:03.848+0100] {taskinstance.py:2192} INFO - Executing <Task(SparkSubmitOperator): submit_spark_job> on 2024-01-29 00:00:00+00:00
+[2024-01-30T13:50:03.869+0100] {standard_task_runner.py:60} INFO - Started process 5988 to run task
+[2024-01-30T13:50:04.079+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'jeniferhdfs', 'submit_spark_job', 'scheduled__2024-01-29T00:00:00+00:00', '--job-id', '97', '--raw', '--subdir', 'DAGS_FOLDER/hdfsDag.py', '--cfg-path', '/tmp/tmpf93te2st']
+[2024-01-30T13:50:04.347+0100] {standard_task_runner.py:88} INFO - Job 97: Subtask submit_spark_job
+[2024-01-30T13:50:04.744+0100] {task_command.py:423} INFO - Running <TaskInstance: jeniferhdfs.submit_spark_job scheduled__2024-01-29T00:00:00+00:00 [running]> on host ubuntu.ubuntu.virtualbox.org
+[2024-01-30T13:50:04.994+0100] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='jenifer' AIRFLOW_CTX_DAG_ID='jeniferhdfs' AIRFLOW_CTX_TASK_ID='submit_spark_job' AIRFLOW_CTX_EXECUTION_DATE='2024-01-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-29T00:00:00+00:00'
+[2024-01-30T13:50:05.073+0100] {base.py:83} INFO - Using connection ID 'spark_default' for task execution.
+[2024-01-30T13:50:05.084+0100] {spark_submit.py:401} INFO - Spark-Submit cmd: spark-submit --master yarn --conf spark.master=local[*] --conf spark.yarn.conf.dir=/usr/local/hadoop/etc/hadoop --name your_spark_job --class main.scala.mnm.MnMcount --queue root.default hdfs://localhost:9000/user/project/datalake/main-scala-mnm_2.12-1.0.jar
+[2024-01-30T13:50:15.510+0100] {spark_submit.py:571} INFO - 24/01/30 13:50:15 WARN Utils: Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+[2024-01-30T13:50:15.516+0100] {spark_submit.py:571} INFO - 24/01/30 13:50:15 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-01-30T13:50:15.722+0100] {spark_submit.py:571} INFO - Exception in thread "main" org.apache.spark.SparkException: When running with master 'yarn' either HADOOP_CONF_DIR or YARN_CONF_DIR must be set in the environment.
+[2024-01-30T13:50:15.723+0100] {spark_submit.py:571} INFO - at org.apache.spark.deploy.SparkSubmitArguments.error(SparkSubmitArguments.scala:634)
+[2024-01-30T13:50:15.724+0100] {spark_submit.py:571} INFO - at org.apache.spark.deploy.SparkSubmitArguments.validateSubmitArguments(SparkSubmitArguments.scala:274)
+[2024-01-30T13:50:15.725+0100] {spark_submit.py:571} INFO - at org.apache.spark.deploy.SparkSubmitArguments.validateArguments(SparkSubmitArguments.scala:234)
+[2024-01-30T13:50:15.727+0100] {spark_submit.py:571} INFO - at org.apache.spark.deploy.SparkSubmitArguments.<init>(SparkSubmitArguments.scala:119)
+[2024-01-30T13:50:15.728+0100] {spark_submit.py:571} INFO - at org.apache.spark.deploy.SparkSubmit$$anon$2$$anon$3.<init>(SparkSubmit.scala:1055)
+[2024-01-30T13:50:15.729+0100] {spark_submit.py:571} INFO - at org.apache.spark.deploy.SparkSubmit$$anon$2.parseArguments(SparkSubmit.scala:1055)
+[2024-01-30T13:50:15.730+0100] {spark_submit.py:571} INFO - at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:85)
+[2024-01-30T13:50:15.731+0100] {spark_submit.py:571} INFO - at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1072)
+[2024-01-30T13:50:15.732+0100] {spark_submit.py:571} INFO - at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1081)
+[2024-01-30T13:50:15.733+0100] {spark_submit.py:571} INFO - at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+[2024-01-30T13:50:15.772+0100] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 174, in execute
+    self._hook.submit(self._application)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 502, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master yarn --conf spark.master=local[*] --conf spark.yarn.conf.dir=/usr/local/hadoop/etc/hadoop --name your_spark_job --class main.scala.mnm.MnMcount --queue root.default hdfs://localhost:9000/user/project/datalake/main-scala-mnm_2.12-1.0.jar. Error code is: 1.
+[2024-01-30T13:50:15.792+0100] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=jeniferhdfs, task_id=submit_spark_job, execution_date=20240129T000000, start_date=20240130T125003, end_date=20240130T125015
+[2024-01-30T13:50:15.859+0100] {standard_task_runner.py:107} ERROR - Failed to execute job 97 for task submit_spark_job (Cannot execute: spark-submit --master yarn --conf spark.master=local[*] --conf spark.yarn.conf.dir=/usr/local/hadoop/etc/hadoop --name your_spark_job --class main.scala.mnm.MnMcount --queue root.default hdfs://localhost:9000/user/project/datalake/main-scala-mnm_2.12-1.0.jar. Error code is: 1.; 5988)
+[2024-01-30T13:50:15.890+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-30T13:50:15.913+0100] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

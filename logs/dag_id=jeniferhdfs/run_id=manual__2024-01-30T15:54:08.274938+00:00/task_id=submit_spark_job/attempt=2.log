@@ -1,0 +1,74 @@
+[2024-01-30T17:00:00.208+0100] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jeniferhdfs.submit_spark_job manual__2024-01-30T15:54:08.274938+00:00 [queued]>
+[2024-01-30T17:00:00.225+0100] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jeniferhdfs.submit_spark_job manual__2024-01-30T15:54:08.274938+00:00 [queued]>
+[2024-01-30T17:00:00.235+0100] {taskinstance.py:2171} INFO - Starting attempt 2 of 2
+[2024-01-30T17:00:00.286+0100] {taskinstance.py:2192} INFO - Executing <Task(SparkSubmitOperator): submit_spark_job> on 2024-01-30 15:54:08.274938+00:00
+[2024-01-30T17:00:00.311+0100] {standard_task_runner.py:60} INFO - Started process 5922 to run task
+[2024-01-30T17:00:00.325+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'jeniferhdfs', 'submit_spark_job', 'manual__2024-01-30T15:54:08.274938+00:00', '--job-id', '121', '--raw', '--subdir', 'DAGS_FOLDER/hdfsDag.py', '--cfg-path', '/tmp/tmp2szycpa9']
+[2024-01-30T17:00:00.366+0100] {standard_task_runner.py:88} INFO - Job 121: Subtask submit_spark_job
+[2024-01-30T17:00:00.582+0100] {task_command.py:423} INFO - Running <TaskInstance: jeniferhdfs.submit_spark_job manual__2024-01-30T15:54:08.274938+00:00 [running]> on host ubuntu.ubuntu.virtualbox.org
+[2024-01-30T17:00:00.815+0100] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='jenifer' AIRFLOW_CTX_DAG_ID='jeniferhdfs' AIRFLOW_CTX_TASK_ID='submit_spark_job' AIRFLOW_CTX_EXECUTION_DATE='2024-01-30T15:54:08.274938+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-30T15:54:08.274938+00:00'
+[2024-01-30T17:00:00.833+0100] {base.py:83} INFO - Using connection ID 'spark_default' for task execution.
+[2024-01-30T17:00:00.836+0100] {spark_submit.py:401} INFO - Spark-Submit cmd: spark-submit --master local[*] --name arrow-spark --class main.scala.mnm.MnMcount --queue root.default --deploy-mode client hdfs://localhost:9000/user/project/datalake/main-scala-mnm_2.12-1.0.jar
+[2024-01-30T17:00:08.122+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:08 WARN Utils: Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+[2024-01-30T17:00:08.127+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:08 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-01-30T17:00:09.668+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-01-30T17:00:12.272+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO SparkContext: Running Spark version 3.3.4
+[2024-01-30T17:00:12.404+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO ResourceUtils: ==============================================================
+[2024-01-30T17:00:12.406+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2024-01-30T17:00:12.408+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO ResourceUtils: ==============================================================
+[2024-01-30T17:00:12.411+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO SparkContext: Submitted application: MnMCount
+[2024-01-30T17:00:12.568+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2024-01-30T17:00:12.605+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO ResourceProfile: Limiting resource is cpu
+[2024-01-30T17:00:12.605+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2024-01-30T17:00:12.891+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO SecurityManager: Changing view acls to: ubuntu
+[2024-01-30T17:00:12.892+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO SecurityManager: Changing modify acls to: ubuntu
+[2024-01-30T17:00:12.892+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO SecurityManager: Changing view acls groups to:
+[2024-01-30T17:00:12.893+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO SecurityManager: Changing modify acls groups to:
+[2024-01-30T17:00:12.893+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:12 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ubuntu); groups with view permissions: Set(); users  with modify permissions: Set(ubuntu); groups with modify permissions: Set()
+[2024-01-30T17:00:14.148+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:14 INFO Utils: Successfully started service 'sparkDriver' on port 37161.
+[2024-01-30T17:00:14.223+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:14 INFO SparkEnv: Registering MapOutputTracker
+[2024-01-30T17:00:14.306+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:14 INFO SparkEnv: Registering BlockManagerMaster
+[2024-01-30T17:00:14.352+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:14 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2024-01-30T17:00:14.355+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:14 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2024-01-30T17:00:14.365+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:14 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2024-01-30T17:00:14.417+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:14 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-5cbae907-991c-4b68-b2c7-d35ef2d5928e
+[2024-01-30T17:00:14.462+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:14 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2024-01-30T17:00:14.508+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:14 INFO SparkEnv: Registering OutputCommitCoordinator
+[2024-01-30T17:00:14.940+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:14 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2024-01-30T17:00:15.033+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO SparkContext: Added JAR hdfs://localhost:9000/user/project/datalake/main-scala-mnm_2.12-1.0.jar at hdfs://localhost:9000/user/project/datalake/main-scala-mnm_2.12-1.0.jar with timestamp 1706630412246
+[2024-01-30T17:00:15.281+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO Executor: Starting executor ID driver on host 10.0.2.15
+[2024-01-30T17:00:15.300+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2024-01-30T17:00:15.356+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO Executor: Fetching hdfs://localhost:9000/user/project/datalake/main-scala-mnm_2.12-1.0.jar with timestamp 1706630412246
+[2024-01-30T17:00:15.387+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO Utils: Fetching hdfs://localhost:9000/user/project/datalake/main-scala-mnm_2.12-1.0.jar to /tmp/spark-30b7379b-cfbe-4038-8551-24c71abafd4c/userFiles-ffef45e1-684e-41ac-853c-654a88cc69cc/fetchFileTemp419039750687605079.tmp
+[2024-01-30T17:00:15.433+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO Executor: Adding file:/tmp/spark-30b7379b-cfbe-4038-8551-24c71abafd4c/userFiles-ffef45e1-684e-41ac-853c-654a88cc69cc/main-scala-mnm_2.12-1.0.jar to class loader
+[2024-01-30T17:00:15.460+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33899.
+[2024-01-30T17:00:15.460+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO NettyBlockTransferService: Server created on 10.0.2.15:33899
+[2024-01-30T17:00:15.465+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2024-01-30T17:00:15.485+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.0.2.15, 33899, None)
+[2024-01-30T17:00:15.495+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO BlockManagerMasterEndpoint: Registering block manager 10.0.2.15:33899 with 434.4 MiB RAM, BlockManagerId(driver, 10.0.2.15, 33899, None)
+[2024-01-30T17:00:15.502+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.0.2.15, 33899, None)
+[2024-01-30T17:00:15.505+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:15 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.0.2.15, 33899, None)
+[2024-01-30T17:00:16.650+0100] {spark_submit.py:571} INFO - Usage: MnMcount <mnm_file_dataset>24/01/30 17:00:16 INFO SparkContext: Invoking stop() from shutdown hook
+[2024-01-30T17:00:16.750+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:16 INFO SparkUI: Stopped Spark web UI at http://10.0.2.15:4040
+[2024-01-30T17:00:16.816+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:16 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2024-01-30T17:00:16.936+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:16 INFO MemoryStore: MemoryStore cleared
+[2024-01-30T17:00:16.937+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:16 INFO BlockManager: BlockManager stopped
+[2024-01-30T17:00:16.966+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:16 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2024-01-30T17:00:16.977+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:16 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2024-01-30T17:00:16.996+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:16 INFO SparkContext: Successfully stopped SparkContext
+[2024-01-30T17:00:16.996+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:16 INFO ShutdownHookManager: Shutdown hook called
+[2024-01-30T17:00:16.999+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:16 INFO ShutdownHookManager: Deleting directory /tmp/spark-30b7379b-cfbe-4038-8551-24c71abafd4c
+[2024-01-30T17:00:17.007+0100] {spark_submit.py:571} INFO - 24/01/30 17:00:17 INFO ShutdownHookManager: Deleting directory /tmp/spark-d367aec2-cbad-4d45-8de2-b3838774fed8
+[2024-01-30T17:00:17.107+0100] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 174, in execute
+    self._hook.submit(self._application)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 502, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master local[*] --name arrow-spark --class main.scala.mnm.MnMcount --queue root.default --deploy-mode client hdfs://localhost:9000/user/project/datalake/main-scala-mnm_2.12-1.0.jar. Error code is: 1.
+[2024-01-30T17:00:17.117+0100] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=jeniferhdfs, task_id=submit_spark_job, execution_date=20240130T155408, start_date=20240130T160000, end_date=20240130T160017
+[2024-01-30T17:00:17.154+0100] {standard_task_runner.py:107} ERROR - Failed to execute job 121 for task submit_spark_job (Cannot execute: spark-submit --master local[*] --name arrow-spark --class main.scala.mnm.MnMcount --queue root.default --deploy-mode client hdfs://localhost:9000/user/project/datalake/main-scala-mnm_2.12-1.0.jar. Error code is: 1.; 5922)
+[2024-01-30T17:00:17.190+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-30T17:00:17.232+0100] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

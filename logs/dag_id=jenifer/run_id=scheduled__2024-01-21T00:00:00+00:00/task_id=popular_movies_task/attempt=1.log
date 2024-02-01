@@ -1,0 +1,42 @@
+[2024-01-22T13:37:46.927+0100] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jenifer.popular_movies_task scheduled__2024-01-21T00:00:00+00:00 [queued]>
+[2024-01-22T13:37:46.956+0100] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jenifer.popular_movies_task scheduled__2024-01-21T00:00:00+00:00 [queued]>
+[2024-01-22T13:37:46.956+0100] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2024-01-22T13:37:47.097+0100] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): popular_movies_task> on 2024-01-21 00:00:00+00:00
+[2024-01-22T13:37:47.117+0100] {standard_task_runner.py:60} INFO - Started process 8501 to run task
+[2024-01-22T13:37:47.128+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'jenifer', 'popular_movies_task', 'scheduled__2024-01-21T00:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/try_dag.py', '--cfg-path', '/tmp/tmpg0h20mpy']
+[2024-01-22T13:37:47.132+0100] {standard_task_runner.py:88} INFO - Job 22: Subtask popular_movies_task
+[2024-01-22T13:37:47.288+0100] {task_command.py:423} INFO - Running <TaskInstance: jenifer.popular_movies_task scheduled__2024-01-21T00:00:00+00:00 [running]> on host ubuntu.ubuntu.virtualbox.org
+[2024-01-22T13:37:47.518+0100] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='jenifer' AIRFLOW_CTX_DAG_ID='jenifer' AIRFLOW_CTX_TASK_ID='popular_movies_task' AIRFLOW_CTX_EXECUTION_DATE='2024-01-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-21T00:00:00+00:00'
+[2024-01-22T13:37:53.457+0100] {logging_mixin.py:188} INFO - Nombre: 40
+[2024-01-22T13:37:54.366+0100] {logging_mixin.py:188} INFO - Nombre: 60
+[2024-01-22T13:37:54.880+0100] {logging_mixin.py:188} INFO - Nombre: 80
+[2024-01-22T13:37:54.881+0100] {logging_mixin.py:188} INFO - Some error occurred during cloud Storage connexion: [Errno 2] No such file or directory: 'E:/3il France/Cours/Big data/Datalake2/focal-gamma-407907-9535fed3d216.json'
+[2024-01-22T13:37:54.881+0100] {logging_mixin.py:188} INFO - Some error occurred during cloud Storage connexion: 'NoneType' object has no attribute 'blob'
+[2024-01-22T13:37:55.315+0100] {logging_mixin.py:188} INFO - Liste des genres de films:
+[2024-01-22T13:37:55.317+0100] {logging_mixin.py:188} INFO - {'genres': [{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Aventure'}, {'id': 16, 'name': 'Animation'}, {'id': 35, 'name': 'Comédie'}, {'id': 80, 'name': 'Crime'}, {'id': 99, 'name': 'Documentaire'}, {'id': 18, 'name': 'Drame'}, {'id': 10751, 'name': 'Familial'}, {'id': 14, 'name': 'Fantastique'}, {'id': 36, 'name': 'Histoire'}, {'id': 27, 'name': 'Horreur'}, {'id': 10402, 'name': 'Musique'}, {'id': 9648, 'name': 'Mystère'}, {'id': 10749, 'name': 'Romance'}, {'id': 878, 'name': 'Science-Fiction'}, {'id': 10770, 'name': 'Téléfilm'}, {'id': 53, 'name': 'Thriller'}, {'id': 10752, 'name': 'Guerre'}, {'id': 37, 'name': 'Western'}]}
+[2024-01-22T13:37:55.317+0100] {logging_mixin.py:188} INFO - 28: Action
+[2024-01-22T13:37:55.318+0100] {logging_mixin.py:188} INFO - 12: Aventure
+[2024-01-22T13:37:55.318+0100] {logging_mixin.py:188} INFO - 16: Animation
+[2024-01-22T13:37:55.318+0100] {logging_mixin.py:188} INFO - 35: Comédie
+[2024-01-22T13:37:55.318+0100] {logging_mixin.py:188} INFO - 80: Crime
+[2024-01-22T13:37:55.318+0100] {logging_mixin.py:188} INFO - 99: Documentaire
+[2024-01-22T13:37:55.318+0100] {logging_mixin.py:188} INFO - 18: Drame
+[2024-01-22T13:37:55.319+0100] {logging_mixin.py:188} INFO - 10751: Familial
+[2024-01-22T13:37:55.319+0100] {logging_mixin.py:188} INFO - 14: Fantastique
+[2024-01-22T13:37:55.319+0100] {logging_mixin.py:188} INFO - 36: Histoire
+[2024-01-22T13:37:55.319+0100] {logging_mixin.py:188} INFO - 27: Horreur
+[2024-01-22T13:37:55.320+0100] {logging_mixin.py:188} INFO - 10402: Musique
+[2024-01-22T13:37:55.320+0100] {logging_mixin.py:188} INFO - 9648: Mystère
+[2024-01-22T13:37:55.320+0100] {logging_mixin.py:188} INFO - 10749: Romance
+[2024-01-22T13:37:55.320+0100] {logging_mixin.py:188} INFO - 878: Science-Fiction
+[2024-01-22T13:37:55.320+0100] {logging_mixin.py:188} INFO - 10770: Téléfilm
+[2024-01-22T13:37:55.320+0100] {logging_mixin.py:188} INFO - 53: Thriller
+[2024-01-22T13:37:55.320+0100] {logging_mixin.py:188} INFO - 10752: Guerre
+[2024-01-22T13:37:55.321+0100] {logging_mixin.py:188} INFO - 37: Western
+[2024-01-22T13:37:55.321+0100] {logging_mixin.py:188} INFO - Some error occurred during cloud Storage connexion: [Errno 2] No such file or directory: 'E:/3il France/Cours/Big data/Datalake2/focal-gamma-407907-9535fed3d216.json'
+[2024-01-22T13:37:55.321+0100] {logging_mixin.py:188} INFO - Some error occurred during cloud Storage connexion: 'NoneType' object has no attribute 'blob'
+[2024-01-22T13:37:55.321+0100] {logging_mixin.py:188} INFO - Nombre: 1
+[2024-01-22T13:37:55.321+0100] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-22T13:37:55.341+0100] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jenifer, task_id=popular_movies_task, execution_date=20240121T000000, start_date=20240122T123746, end_date=20240122T123755
+[2024-01-22T13:37:55.463+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-22T13:37:55.538+0100] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check
