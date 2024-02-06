@@ -1,0 +1,73 @@
+[2024-02-01T22:47:12.799+0100] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jeniferhdfs.popular_movies_task scheduled__2024-01-31T00:00:00+00:00 [queued]>
+[2024-02-01T22:47:12.842+0100] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jeniferhdfs.popular_movies_task scheduled__2024-01-31T00:00:00+00:00 [queued]>
+[2024-02-01T22:47:12.842+0100] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2024-02-01T22:47:12.953+0100] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): popular_movies_task> on 2024-01-31 00:00:00+00:00
+[2024-02-01T22:47:13.009+0100] {standard_task_runner.py:60} INFO - Started process 14554 to run task
+[2024-02-01T22:47:13.037+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'jeniferhdfs', 'popular_movies_task', 'scheduled__2024-01-31T00:00:00+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/hdfsDag.py', '--cfg-path', '/tmp/tmpjfrfehuf']
+[2024-02-01T22:47:13.044+0100] {standard_task_runner.py:88} INFO - Job 124: Subtask popular_movies_task
+[2024-02-01T22:47:13.406+0100] {task_command.py:423} INFO - Running <TaskInstance: jeniferhdfs.popular_movies_task scheduled__2024-01-31T00:00:00+00:00 [running]> on host ubuntu.ubuntu.virtualbox.org
+[2024-02-01T22:47:14.194+0100] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='jenifer' AIRFLOW_CTX_DAG_ID='jeniferhdfs' AIRFLOW_CTX_TASK_ID='popular_movies_task' AIRFLOW_CTX_EXECUTION_DATE='2024-01-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-31T00:00:00+00:00'
+[2024-02-01T22:47:14.200+0100] {logging_mixin.py:188} INFO - ***************************{'conf': <airflow.configuration.AirflowConfigParser object at 0x7f9ecf5409a0>, 'dag': <DAG: jeniferhdfs>, 'dag_run': <DagRun jeniferhdfs @ 2024-01-31 00:00:00+00:00: scheduled__2024-01-31T00:00:00+00:00, state:running, queued_at: 2024-02-01 21:46:47.605996+00:00. externally triggered: False>, 'data_interval_end': DateTime(2024, 2, 1, 0, 0, 0, tzinfo=Timezone('UTC')), 'data_interval_start': DateTime(2024, 1, 31, 0, 0, 0, tzinfo=Timezone('UTC')), 'ds': '2024-01-31', 'ds_nodash': '20240131', 'execution_date': <Proxy at 0x7f9eb2296480 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f9eb213e710>, 'execution_date', DateTime(2024, 1, 31, 0, 0, 0, tzinfo=Timezone('UTC')))>, 'expanded_ti_count': None, 'inlets': [], 'logical_date': DateTime(2024, 1, 31, 0, 0, 0, tzinfo=Timezone('UTC')), 'macros': <module 'airflow.macros' from '/home/ubuntu/.local/lib/python3.10/site-packages/airflow/macros/__init__.py'>, 'next_ds': <Proxy at 0x7f9eb2206100 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f9eb213e710>, 'next_ds', '2024-02-01')>, 'next_ds_nodash': <Proxy at 0x7f9eb2205580 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f9eb213e710>, 'next_ds_nodash', '20240201')>, 'next_execution_date': <Proxy at 0x7f9eb22bec80 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f9eb213e710>, 'next_execution_date', DateTime(2024, 2, 1, 0, 0, 0, tzinfo=Timezone('UTC')))>, 'outlets': [], 'params': {}, 'prev_data_interval_start_success': None, 'prev_data_interval_end_success': None, 'prev_ds': <Proxy at 0x7f9eb219f540 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f9eb213e710>, 'prev_ds', '2024-01-30')>, 'prev_ds_nodash': <Proxy at 0x7f9eb21f1ec0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f9eb213e710>, 'prev_ds_nodash', '20240130')>, 'prev_execution_date': <Proxy at 0x7f9eb21f0cc0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f9eb213e710>, 'prev_execution_date', DateTime(2024, 1, 30, 0, 0, 0, tzinfo=Timezone('UTC')))>, 'prev_execution_date_success': <Proxy at 0x7f9ec5742900 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f9eb213e710>, 'prev_execution_date_success', None)>, 'prev_start_date_success': None, 'prev_end_date_success': None, 'run_id': 'scheduled__2024-01-31T00:00:00+00:00', 'task': <Task(PythonOperator): popular_movies_task>, 'task_instance': <TaskInstance: jeniferhdfs.popular_movies_task scheduled__2024-01-31T00:00:00+00:00 [running]>, 'task_instance_key_str': 'jeniferhdfs__popular_movies_task__20240131', 'test_mode': False, 'ti': <TaskInstance: jeniferhdfs.popular_movies_task scheduled__2024-01-31T00:00:00+00:00 [running]>, 'tomorrow_ds': <Proxy at 0x7f9eb2225880 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f9eb213e710>, 'tomorrow_ds', '2024-02-01')>, 'tomorrow_ds_nodash': <Proxy at 0x7f9eb2045640 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f9eb213e710>, 'tomorrow_ds_nodash', '20240201')>, 'triggering_dataset_events': <Proxy at 0x7f9eb21b7300 with factory <function _get_template_context.<locals>.get_triggering_events at 0x7f9eb21f45e0>>, 'ts': '2024-01-31T00:00:00+00:00', 'ts_nodash': '20240131T000000', 'ts_nodash_with_tz': '20240131T000000+0000', 'var': {'json': None, 'value': None}, 'conn': None, 'yesterday_ds': <Proxy at 0x7f9eb20464c0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f9eb213e710>, 'yesterday_ds', '2024-01-30')>, 'yesterday_ds_nodash': <Proxy at 0x7f9eb2046500 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7f9eb213e710>, 'yesterday_ds_nodash', '20240130')>, 'templates_dict': None}
+[2024-02-01T22:48:51.077+0100] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1100, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1371, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:1007)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/popular?api_key=2c5a15136404a6eb67a3b4498cb2b4b8&page=174 (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1007)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/ubuntu/airflow/dags/getDataHdfs.py", line 53, in ingest_all_data
+    fetch_and_save_multiple_pages(api_key, start_page=1, end_page=500)
+  File "/home/ubuntu/airflow/dags/getDataHdfs.py", line 37, in fetch_and_save_multiple_pages
+    page_data = fetch_tmdb_data(api_key, page)
+  File "/home/ubuntu/airflow/dags/getDataHdfs.py", line 19, in fetch_tmdb_data
+    response = requests.get(tmdb_url, params=params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/popular?api_key=2c5a15136404a6eb67a3b4498cb2b4b8&page=174 (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1007)')))
+[2024-02-01T22:48:51.193+0100] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=jeniferhdfs, task_id=popular_movies_task, execution_date=20240131T000000, start_date=20240201T214712, end_date=20240201T214851
+[2024-02-01T22:48:51.257+0100] {standard_task_runner.py:107} ERROR - Failed to execute job 124 for task popular_movies_task (HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/popular?api_key=2c5a15136404a6eb67a3b4498cb2b4b8&page=174 (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1007)'))); 14554)
+[2024-02-01T22:48:51.282+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-02-01T22:48:51.388+0100] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -46,7 +46,7 @@ object MnMcount {
     movieProgression.write.option("inferSchema", true).mode("overwrite")
       .parquet(s"hdfs://localhost:9000/user/project/datalake/usage/$currentDate/movies_progression_years.parquet")
 
-    movieProgression.show(20)
+    movieProgression.show(100)
 
     //DEUXIEME AXE D'ANALYSE
     //dans selectedDf, nous avons choisi les colonnes qui vont nous servir pour analyser les langues des films les plus regardés
@@ -63,10 +63,18 @@ object MnMcount {
     //supprimer les doublons
     val mostWatchedLanguageFinal = rankedDf.filter("rank = 1").drop("rank")
 
-    mostWatchedLanguageFinal.show(20)
+    mostWatchedLanguageFinal.show(100)
 
     mostWatchedLanguageFinal.write.option("inferSchema", true).mode("overwrite")
       .parquet(s"hdfs://localhost:9000/user/project/datalake/usage/$currentDate/movies_language/movies_language.parquet")
   }
 }
 // scalastyle:on println
+
+// val path1 = "gs://demo-bucket-pro/raw/tmdb/popular_movies/2024-01-13/genre_name.json"
+// val dfgenre = spark.read.option("multiline", true).option("inferSchema", true).json(path1)
+// dfgenre.printSchema(3)
+// val explodedDF = dfgenre.select(explode(col("genres")).as("exploded_genre"))
+// explodedDF.printSchema(5)
+// val finalDf = explodedDF.select(col("exploded_genre.id").as("genre_id"), col("exploded_genre.name").as("genre_name"))
+// finalDf.show(4)

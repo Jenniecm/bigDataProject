@@ -1,0 +1,748 @@
+[2024-02-02T16:16:11.846+0100] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jeniferhdfs.submit_spark_job manual__2024-02-02T15:12:22.518367+00:00 [queued]>
+[2024-02-02T16:16:11.857+0100] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jeniferhdfs.submit_spark_job manual__2024-02-02T15:12:22.518367+00:00 [queued]>
+[2024-02-02T16:16:11.857+0100] {taskinstance.py:2171} INFO - Starting attempt 1 of 6
+[2024-02-02T16:16:11.887+0100] {taskinstance.py:2192} INFO - Executing <Task(SparkSubmitOperator): submit_spark_job> on 2024-02-02 15:12:22.518367+00:00
+[2024-02-02T16:16:11.895+0100] {standard_task_runner.py:60} INFO - Started process 15594 to run task
+[2024-02-02T16:16:11.904+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'jeniferhdfs', 'submit_spark_job', 'manual__2024-02-02T15:12:22.518367+00:00', '--job-id', '144', '--raw', '--subdir', 'DAGS_FOLDER/hdfsDag.py', '--cfg-path', '/tmp/tmpmk83bz7_']
+[2024-02-02T16:16:11.909+0100] {standard_task_runner.py:88} INFO - Job 144: Subtask submit_spark_job
+[2024-02-02T16:16:11.963+0100] {task_command.py:423} INFO - Running <TaskInstance: jeniferhdfs.submit_spark_job manual__2024-02-02T15:12:22.518367+00:00 [running]> on host ubuntu.ubuntu.virtualbox.org
+[2024-02-02T16:16:12.078+0100] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='jenifer' AIRFLOW_CTX_DAG_ID='jeniferhdfs' AIRFLOW_CTX_TASK_ID='submit_spark_job' AIRFLOW_CTX_EXECUTION_DATE='2024-02-02T15:12:22.518367+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-02T15:12:22.518367+00:00'
+[2024-02-02T16:16:12.105+0100] {base.py:83} INFO - Using connection ID 'spark_default' for task execution.
+[2024-02-02T16:16:12.108+0100] {spark_submit.py:401} INFO - Spark-Submit cmd: spark-submit --master local[*] --name arrow-spark --class main.scala.mnm.MnMcount --queue root.default --deploy-mode client /home/ubuntu/airflow/mnmcount/scala/target/scala-2.12/main-scala-mnm_2.12-1.0.jar
+[2024-02-02T16:16:20.003+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:19 WARN Utils: Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+[2024-02-02T16:16:20.010+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:20 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-02-02T16:16:21.902+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:21 INFO SparkContext: Running Spark version 3.3.4
+[2024-02-02T16:16:22.311+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:22 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-02-02T16:16:22.990+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:22 INFO ResourceUtils: ==============================================================
+[2024-02-02T16:16:22.991+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:22 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2024-02-02T16:16:22.994+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:22 INFO ResourceUtils: ==============================================================
+[2024-02-02T16:16:22.994+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:22 INFO SparkContext: Submitted application: MnMCount
+[2024-02-02T16:16:23.280+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:23 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2024-02-02T16:16:23.342+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:23 INFO ResourceProfile: Limiting resource is cpu
+[2024-02-02T16:16:23.364+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:23 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2024-02-02T16:16:23.710+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:23 INFO SecurityManager: Changing view acls to: ubuntu
+[2024-02-02T16:16:23.712+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:23 INFO SecurityManager: Changing modify acls to: ubuntu
+[2024-02-02T16:16:23.716+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:23 INFO SecurityManager: Changing view acls groups to:
+[2024-02-02T16:16:23.718+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:23 INFO SecurityManager: Changing modify acls groups to:
+[2024-02-02T16:16:23.720+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:23 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ubuntu); groups with view permissions: Set(); users  with modify permissions: Set(ubuntu); groups with modify permissions: Set()
+[2024-02-02T16:16:25.141+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:25 INFO Utils: Successfully started service 'sparkDriver' on port 42045.
+[2024-02-02T16:16:25.585+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:25 INFO SparkEnv: Registering MapOutputTracker
+[2024-02-02T16:16:25.734+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:25 INFO SparkEnv: Registering BlockManagerMaster
+[2024-02-02T16:16:25.826+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:25 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2024-02-02T16:16:25.832+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:25 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2024-02-02T16:16:25.854+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:25 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2024-02-02T16:16:26.525+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:26 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-be708f72-fc6a-4d67-bb4a-f39c9dc05f45
+[2024-02-02T16:16:26.795+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:26 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2024-02-02T16:16:27.206+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:27 INFO SparkEnv: Registering OutputCommitCoordinator
+[2024-02-02T16:16:28.493+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:28 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2024-02-02T16:16:28.630+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:28 INFO SparkContext: Added JAR file:/home/ubuntu/airflow/mnmcount/scala/target/scala-2.12/main-scala-mnm_2.12-1.0.jar at spark://10.0.2.15:42045/jars/main-scala-mnm_2.12-1.0.jar with timestamp 1706886981872
+[2024-02-02T16:16:28.992+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:28 INFO Executor: Starting executor ID driver on host 10.0.2.15
+[2024-02-02T16:16:29.014+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:29 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2024-02-02T16:16:29.061+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:29 INFO Executor: Fetching spark://10.0.2.15:42045/jars/main-scala-mnm_2.12-1.0.jar with timestamp 1706886981872
+[2024-02-02T16:16:29.327+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:29 INFO TransportClientFactory: Successfully created connection to /10.0.2.15:42045 after 162 ms (0 ms spent in bootstraps)
+[2024-02-02T16:16:29.385+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:29 INFO Utils: Fetching spark://10.0.2.15:42045/jars/main-scala-mnm_2.12-1.0.jar to /tmp/spark-479ab5da-fb46-43a4-979e-38c96e94e595/userFiles-75611978-2f2f-4190-ac3e-e35c7034b62a/fetchFileTemp8409378445844775556.tmp
+[2024-02-02T16:16:29.670+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:29 INFO Executor: Adding file:/tmp/spark-479ab5da-fb46-43a4-979e-38c96e94e595/userFiles-75611978-2f2f-4190-ac3e-e35c7034b62a/main-scala-mnm_2.12-1.0.jar to class loader
+[2024-02-02T16:16:29.703+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:29 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43417.
+[2024-02-02T16:16:29.704+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:29 INFO NettyBlockTransferService: Server created on 10.0.2.15:43417
+[2024-02-02T16:16:29.710+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:29 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2024-02-02T16:16:29.744+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:29 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.0.2.15, 43417, None)
+[2024-02-02T16:16:29.768+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:29 INFO BlockManagerMasterEndpoint: Registering block manager 10.0.2.15:43417 with 434.4 MiB RAM, BlockManagerId(driver, 10.0.2.15, 43417, None)
+[2024-02-02T16:16:29.781+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:29 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.0.2.15, 43417, None)
+[2024-02-02T16:16:29.787+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:29 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.0.2.15, 43417, None)
+[2024-02-02T16:16:33.009+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:32 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2024-02-02T16:16:33.098+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:33 INFO SharedState: Warehouse path is 'file:/home/ubuntu/spark-warehouse'.
+[2024-02-02T16:16:51.671+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:51 INFO InMemoryFileIndex: It took 1039 ms to list leaf files for 1 paths.
+[2024-02-02T16:16:53.300+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:53 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 200.1 KiB, free 434.2 MiB)
+[2024-02-02T16:16:53.944+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:53 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 34.2 KiB, free 434.2 MiB)
+[2024-02-02T16:16:53.962+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:53 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.0.2.15:43417 (size: 34.2 KiB, free: 434.4 MiB)
+[2024-02-02T16:16:54.014+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:54 INFO SparkContext: Created broadcast 0 from json at MnMcount.scala:30
+[2024-02-02T16:16:57.375+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:57 INFO FileInputFormat: Total input files to process : 1
+[2024-02-02T16:16:57.439+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:57 INFO FileInputFormat: Total input files to process : 1
+[2024-02-02T16:16:57.668+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:57 INFO SparkContext: Starting job: json at MnMcount.scala:30
+[2024-02-02T16:16:57.785+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:57 INFO DAGScheduler: Got job 0 (json at MnMcount.scala:30) with 1 output partitions
+[2024-02-02T16:16:57.789+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:57 INFO DAGScheduler: Final stage: ResultStage 0 (json at MnMcount.scala:30)
+[2024-02-02T16:16:57.793+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:57 INFO DAGScheduler: Parents of final stage: List()
+[2024-02-02T16:16:57.819+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:57 INFO DAGScheduler: Missing parents: List()
+[2024-02-02T16:16:57.969+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:57 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[2] at json at MnMcount.scala:30), which has no missing parents
+[2024-02-02T16:16:58.809+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:58 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 9.0 KiB, free 434.2 MiB)
+[2024-02-02T16:16:58.860+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:58 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 4.8 KiB, free 434.2 MiB)
+[2024-02-02T16:16:58.879+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:58 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.0.2.15:43417 (size: 4.8 KiB, free: 434.4 MiB)
+[2024-02-02T16:16:58.908+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:58 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1509
+[2024-02-02T16:16:59.106+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:59 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[2] at json at MnMcount.scala:30) (first 15 tasks are for partitions Vector(0))
+[2024-02-02T16:16:59.114+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:59 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+[2024-02-02T16:16:59.659+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:59 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (10.0.2.15, executor driver, partition 0, ANY, 4628 bytes) taskResourceAssignments Map()
+[2024-02-02T16:16:59.973+0100] {spark_submit.py:571} INFO - 24/02/02 16:16:59 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+[2024-02-02T16:17:00.688+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:00 INFO BinaryFileRDD: Input split: Paths:/user/project/datalake/raw/2024-02-02/tmdb_popular_movies.json:0+6658902
+[2024-02-02T16:17:04.373+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:04 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 2357 bytes result sent to driver
+[2024-02-02T16:17:04.452+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:04 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 5000 ms on 10.0.2.15 (executor driver) (1/1)
+[2024-02-02T16:17:04.558+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:04 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+[2024-02-02T16:17:04.663+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:04 INFO DAGScheduler: ResultStage 0 (json at MnMcount.scala:30) finished in 6.244 s
+[2024-02-02T16:17:04.776+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:04 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-02-02T16:17:04.777+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:04 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[2024-02-02T16:17:04.794+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:04 INFO DAGScheduler: Job 0 finished: json at MnMcount.scala:30, took 7.101937 s
+[2024-02-02T16:17:14.761+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:14 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 10.0.2.15:43417 in memory (size: 4.8 KiB, free: 434.4 MiB)
+[2024-02-02T16:17:14.928+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:14 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 10.0.2.15:43417 in memory (size: 34.2 KiB, free: 434.4 MiB)
+[2024-02-02T16:17:30.452+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:30 INFO FileSourceStrategy: Pushed Filters:
+[2024-02-02T16:17:30.456+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:30 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(year(cast(gettimestamp(release_date#9, yyyy-MM-dd, TimestampType, Some(Europe/Paris), false) as date)))
+[2024-02-02T16:17:30.462+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:30 INFO FileSourceStrategy: Output Data Schema: struct<id: bigint, release_date: string>
+[2024-02-02T16:17:32.306+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:32 INFO ParquetFileFormat: Using default output committer for Parquet: org.apache.parquet.hadoop.ParquetOutputCommitter
+[2024-02-02T16:17:32.457+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:32 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2024-02-02T16:17:32.458+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:32 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2024-02-02T16:17:32.463+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:32 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[2024-02-02T16:17:32.466+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:32 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2024-02-02T16:17:32.467+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:32 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2024-02-02T16:17:32.473+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:32 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[2024-02-02T16:17:34.377+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:34 INFO CodeGenerator: Code generated in 1154.007326 ms
+[2024-02-02T16:17:34.382+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:34 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 199.4 KiB, free 434.2 MiB)
+[2024-02-02T16:17:34.517+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:34 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 434.2 MiB)
+[2024-02-02T16:17:34.544+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:34 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.0.2.15:43417 (size: 34.1 KiB, free: 434.4 MiB)
+[2024-02-02T16:17:34.557+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:34 INFO SparkContext: Created broadcast 2 from parquet at MnMcount.scala:47
+[2024-02-02T16:17:34.633+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:34 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2024-02-02T16:17:35.541+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO DAGScheduler: Registering RDD 6 (parquet at MnMcount.scala:47) as input to shuffle 0
+[2024-02-02T16:17:35.577+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO DAGScheduler: Got map stage job 1 (parquet at MnMcount.scala:47) with 1 output partitions
+[2024-02-02T16:17:35.578+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO DAGScheduler: Final stage: ShuffleMapStage 1 (parquet at MnMcount.scala:47)
+[2024-02-02T16:17:35.578+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO DAGScheduler: Parents of final stage: List()
+[2024-02-02T16:17:35.581+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO DAGScheduler: Missing parents: List()
+[2024-02-02T16:17:35.591+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO DAGScheduler: Submitting ShuffleMapStage 1 (MapPartitionsRDD[6] at parquet at MnMcount.scala:47), which has no missing parents
+[2024-02-02T16:17:35.778+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 41.6 KiB, free 434.1 MiB)
+[2024-02-02T16:17:35.787+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 19.6 KiB, free 434.1 MiB)
+[2024-02-02T16:17:35.787+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.0.2.15:43417 (size: 19.6 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:35.821+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1509
+[2024-02-02T16:17:35.824+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[6] at parquet at MnMcount.scala:47) (first 15 tasks are for partitions Vector(0))
+[2024-02-02T16:17:35.852+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks resource profile 0
+[2024-02-02T16:17:35.898+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (10.0.2.15, executor driver, partition 0, ANY, 4943 bytes) taskResourceAssignments Map()
+[2024-02-02T16:17:35.906+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:35 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+[2024-02-02T16:17:36.503+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:36 INFO CodeGenerator: Code generated in 67.726748 ms
+[2024-02-02T16:17:36.599+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:36 INFO CodeGenerator: Code generated in 14.922204 ms
+[2024-02-02T16:17:36.653+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:36 INFO CodeGenerator: Code generated in 22.278872 ms
+[2024-02-02T16:17:36.695+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:36 INFO CodeGenerator: Code generated in 28.561514 ms
+[2024-02-02T16:17:36.723+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:36 INFO FileScanRDD: Reading File path: hdfs://localhost:9000/user/project/datalake/raw/2024-02-02/tmdb_popular_movies.json, range: 0-6658902, partition values: [empty row]
+[2024-02-02T16:17:36.754+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:36 INFO CodeGenerator: Code generated in 18.842105 ms
+[2024-02-02T16:17:38.501+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:38 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 2823 bytes result sent to driver
+[2024-02-02T16:17:38.509+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:38 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 2648 ms on 10.0.2.15 (executor driver) (1/1)
+[2024-02-02T16:17:38.512+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:38 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool
+[2024-02-02T16:17:38.524+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:38 INFO DAGScheduler: ShuffleMapStage 1 (parquet at MnMcount.scala:47) finished in 2.917 s
+[2024-02-02T16:17:38.535+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:38 INFO DAGScheduler: looking for newly runnable stages
+[2024-02-02T16:17:38.545+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:38 INFO DAGScheduler: running: Set()
+[2024-02-02T16:17:38.546+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:38 INFO DAGScheduler: waiting: Set()
+[2024-02-02T16:17:38.546+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:38 INFO DAGScheduler: failed: Set()
+[2024-02-02T16:17:38.688+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:38 INFO ShufflePartitionsUtil: For shuffle(0), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2024-02-02T16:17:38.855+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:38 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+[2024-02-02T16:17:39.049+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO CodeGenerator: Code generated in 136.464405 ms
+[2024-02-02T16:17:39.259+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 10.0.2.15:43417 in memory (size: 19.6 KiB, free: 434.4 MiB)
+[2024-02-02T16:17:39.282+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO CodeGenerator: Code generated in 69.631133 ms
+[2024-02-02T16:17:39.425+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO SparkContext: Starting job: parquet at MnMcount.scala:47
+[2024-02-02T16:17:39.437+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO DAGScheduler: Got job 2 (parquet at MnMcount.scala:47) with 1 output partitions
+[2024-02-02T16:17:39.438+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO DAGScheduler: Final stage: ResultStage 3 (parquet at MnMcount.scala:47)
+[2024-02-02T16:17:39.438+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 2)
+[2024-02-02T16:17:39.445+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO DAGScheduler: Missing parents: List()
+[2024-02-02T16:17:39.451+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[11] at parquet at MnMcount.scala:47), which has no missing parents
+[2024-02-02T16:17:39.517+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 41.0 KiB, free 434.1 MiB)
+[2024-02-02T16:17:39.527+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 19.6 KiB, free 434.1 MiB)
+[2024-02-02T16:17:39.531+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 10.0.2.15:43417 (size: 19.6 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:39.534+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:1509
+[2024-02-02T16:17:39.540+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 3 (MapPartitionsRDD[11] at parquet at MnMcount.scala:47) (first 15 tasks are for partitions Vector(0))
+[2024-02-02T16:17:39.542+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO TaskSchedulerImpl: Adding task set 3.0 with 1 tasks resource profile 0
+[2024-02-02T16:17:39.568+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 2) (10.0.2.15, executor driver, partition 0, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+[2024-02-02T16:17:39.569+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO Executor: Running task 0.0 in stage 3.0 (TID 2)
+[2024-02-02T16:17:39.843+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO ShuffleBlockFetcherIterator: Getting 1 (5.7 KiB) non-empty blocks including 1 (5.7 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2024-02-02T16:17:39.856+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:39 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 70 ms
+[2024-02-02T16:17:40.076+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO Executor: Finished task 0.0 in stage 3.0 (TID 2). 7554 bytes result sent to driver
+[2024-02-02T16:17:40.097+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 2) in 540 ms on 10.0.2.15 (executor driver) (1/1)
+[2024-02-02T16:17:40.102+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool
+[2024-02-02T16:17:40.113+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: ResultStage 3 (parquet at MnMcount.scala:47) finished in 0.613 s
+[2024-02-02T16:17:40.134+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-02-02T16:17:40.135+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO TaskSchedulerImpl: Killing all running tasks in stage 3: Stage finished
+[2024-02-02T16:17:40.141+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: Job 2 finished: parquet at MnMcount.scala:47, took 0.710114 s
+[2024-02-02T16:17:40.185+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: Registering RDD 12 (parquet at MnMcount.scala:47) as input to shuffle 1
+[2024-02-02T16:17:40.187+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: Got map stage job 3 (parquet at MnMcount.scala:47) with 1 output partitions
+[2024-02-02T16:17:40.192+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: Final stage: ShuffleMapStage 5 (parquet at MnMcount.scala:47)
+[2024-02-02T16:17:40.193+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 4)
+[2024-02-02T16:17:40.197+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: Missing parents: List()
+[2024-02-02T16:17:40.211+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: Submitting ShuffleMapStage 5 (MapPartitionsRDD[12] at parquet at MnMcount.scala:47), which has no missing parents
+[2024-02-02T16:17:40.264+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 44.7 KiB, free 434.1 MiB)
+[2024-02-02T16:17:40.270+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 20.4 KiB, free 434.0 MiB)
+[2024-02-02T16:17:40.273+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 10.0.2.15:43417 (size: 20.4 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:40.277+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:1509
+[2024-02-02T16:17:40.278+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 5 (MapPartitionsRDD[12] at parquet at MnMcount.scala:47) (first 15 tasks are for partitions Vector(0))
+[2024-02-02T16:17:40.283+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO TaskSchedulerImpl: Adding task set 5.0 with 1 tasks resource profile 0
+[2024-02-02T16:17:40.288+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO TaskSetManager: Starting task 0.0 in stage 5.0 (TID 3) (10.0.2.15, executor driver, partition 0, NODE_LOCAL, 4442 bytes) taskResourceAssignments Map()
+[2024-02-02T16:17:40.301+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO Executor: Running task 0.0 in stage 5.0 (TID 3)
+[2024-02-02T16:17:40.359+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO ShuffleBlockFetcherIterator: Getting 1 (5.7 KiB) non-empty blocks including 1 (5.7 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2024-02-02T16:17:40.360+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+[2024-02-02T16:17:40.623+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO Executor: Finished task 0.0 in stage 5.0 (TID 3). 4134 bytes result sent to driver
+[2024-02-02T16:17:40.651+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO TaskSetManager: Finished task 0.0 in stage 5.0 (TID 3) in 364 ms on 10.0.2.15 (executor driver) (1/1)
+[2024-02-02T16:17:40.652+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO TaskSchedulerImpl: Removed TaskSet 5.0, whose tasks have all completed, from pool
+[2024-02-02T16:17:40.670+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: ShuffleMapStage 5 (parquet at MnMcount.scala:47) finished in 0.441 s
+[2024-02-02T16:17:40.684+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: looking for newly runnable stages
+[2024-02-02T16:17:40.686+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: running: Set()
+[2024-02-02T16:17:40.686+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: waiting: Set()
+[2024-02-02T16:17:40.687+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO DAGScheduler: failed: Set()
+[2024-02-02T16:17:40.715+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO ShufflePartitionsUtil: For shuffle(1), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2024-02-02T16:17:40.907+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO CodeGenerator: Code generated in 69.618582 ms
+[2024-02-02T16:17:40.998+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:40 INFO SparkContext: Starting job: parquet at MnMcount.scala:47
+[2024-02-02T16:17:41.008+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO DAGScheduler: Got job 4 (parquet at MnMcount.scala:47) with 1 output partitions
+[2024-02-02T16:17:41.010+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO DAGScheduler: Final stage: ResultStage 8 (parquet at MnMcount.scala:47)
+[2024-02-02T16:17:41.012+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 7)
+[2024-02-02T16:17:41.017+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO DAGScheduler: Missing parents: List()
+[2024-02-02T16:17:41.022+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO DAGScheduler: Submitting ResultStage 8 (MapPartitionsRDD[14] at parquet at MnMcount.scala:47), which has no missing parents
+[2024-02-02T16:17:41.204+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 238.6 KiB, free 433.8 MiB)
+[2024-02-02T16:17:41.205+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 88.8 KiB, free 433.7 MiB)
+[2024-02-02T16:17:41.232+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on 10.0.2.15:43417 (size: 88.8 KiB, free: 434.2 MiB)
+[2024-02-02T16:17:41.245+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO SparkContext: Created broadcast 6 from broadcast at DAGScheduler.scala:1509
+[2024-02-02T16:17:41.246+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 8 (MapPartitionsRDD[14] at parquet at MnMcount.scala:47) (first 15 tasks are for partitions Vector(0))
+[2024-02-02T16:17:41.247+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO TaskSchedulerImpl: Adding task set 8.0 with 1 tasks resource profile 0
+[2024-02-02T16:17:41.247+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO TaskSetManager: Starting task 0.0 in stage 8.0 (TID 4) (10.0.2.15, executor driver, partition 0, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+[2024-02-02T16:17:41.252+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO Executor: Running task 0.0 in stage 8.0 (TID 4)
+[2024-02-02T16:17:41.428+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO ShuffleBlockFetcherIterator: Getting 1 (6.8 KiB) non-empty blocks including 1 (6.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2024-02-02T16:17:41.429+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+[2024-02-02T16:17:41.540+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO CodeGenerator: Code generated in 26.835609 ms
+[2024-02-02T16:17:41.588+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2024-02-02T16:17:41.590+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2024-02-02T16:17:41.598+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[2024-02-02T16:17:41.601+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2024-02-02T16:17:41.601+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2024-02-02T16:17:41.602+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[2024-02-02T16:17:41.648+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO CodecConfig: Compression: SNAPPY
+[2024-02-02T16:17:41.660+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO CodecConfig: Compression: SNAPPY
+[2024-02-02T16:17:41.809+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO ParquetOutputFormat: Parquet block size to 134217728
+[2024-02-02T16:17:41.811+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO ParquetOutputFormat: Validation is off
+[2024-02-02T16:17:41.819+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO ParquetOutputFormat: Maximum row group padding size is 8388608 bytes
+[2024-02-02T16:17:41.819+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:41 INFO ParquetOutputFormat: Parquet properties are:
+[2024-02-02T16:17:41.820+0100] {spark_submit.py:571} INFO - Parquet page size to 1048576
+[2024-02-02T16:17:41.820+0100] {spark_submit.py:571} INFO - Parquet dictionary page size to 1048576
+[2024-02-02T16:17:41.820+0100] {spark_submit.py:571} INFO - Dictionary is true
+[2024-02-02T16:17:41.820+0100] {spark_submit.py:571} INFO - Writer version is: PARQUET_1_0
+[2024-02-02T16:17:41.821+0100] {spark_submit.py:571} INFO - Page size checking is: estimated
+[2024-02-02T16:17:41.822+0100] {spark_submit.py:571} INFO - Min row count for page size check is: 100
+[2024-02-02T16:17:41.823+0100] {spark_submit.py:571} INFO - Max row count for page size check is: 10000
+[2024-02-02T16:17:41.837+0100] {spark_submit.py:571} INFO - Truncate length for column indexes is: 64
+[2024-02-02T16:17:41.838+0100] {spark_submit.py:571} INFO - Truncate length for statistics min/max  is: 2147483647
+[2024-02-02T16:17:41.838+0100] {spark_submit.py:571} INFO - Bloom filter enabled: false
+[2024-02-02T16:17:41.838+0100] {spark_submit.py:571} INFO - Max Bloom filter size for a column is 1048576
+[2024-02-02T16:17:41.838+0100] {spark_submit.py:571} INFO - Bloom filter expected number of distinct values are: null
+[2024-02-02T16:17:41.839+0100] {spark_submit.py:571} INFO - Page row count limit to 20000
+[2024-02-02T16:17:41.839+0100] {spark_submit.py:571} INFO - Writing page checksums is: on
+[2024-02-02T16:17:42.549+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:42 INFO ParquetWriteSupport: Initialized Parquet WriteSupport with Catalyst schema:
+[2024-02-02T16:17:42.570+0100] {spark_submit.py:571} INFO - {
+[2024-02-02T16:17:42.582+0100] {spark_submit.py:571} INFO - "type" : "struct",
+[2024-02-02T16:17:42.582+0100] {spark_submit.py:571} INFO - "fields" : [ {
+[2024-02-02T16:17:42.582+0100] {spark_submit.py:571} INFO - "name" : "year",
+[2024-02-02T16:17:42.582+0100] {spark_submit.py:571} INFO - "type" : "integer",
+[2024-02-02T16:17:42.583+0100] {spark_submit.py:571} INFO - "nullable" : true,
+[2024-02-02T16:17:42.583+0100] {spark_submit.py:571} INFO - "metadata" : { }
+[2024-02-02T16:17:42.584+0100] {spark_submit.py:571} INFO - }, {
+[2024-02-02T16:17:42.584+0100] {spark_submit.py:571} INFO - "name" : "total_movies",
+[2024-02-02T16:17:42.585+0100] {spark_submit.py:571} INFO - "type" : "long",
+[2024-02-02T16:17:42.585+0100] {spark_submit.py:571} INFO - "nullable" : false,
+[2024-02-02T16:17:42.603+0100] {spark_submit.py:571} INFO - "metadata" : { }
+[2024-02-02T16:17:42.605+0100] {spark_submit.py:571} INFO - } ]
+[2024-02-02T16:17:42.606+0100] {spark_submit.py:571} INFO - }
+[2024-02-02T16:17:42.606+0100] {spark_submit.py:571} INFO - and corresponding Parquet message type:
+[2024-02-02T16:17:42.607+0100] {spark_submit.py:571} INFO - message spark_schema {
+[2024-02-02T16:17:42.607+0100] {spark_submit.py:571} INFO - optional int32 year;
+[2024-02-02T16:17:42.608+0100] {spark_submit.py:571} INFO - required int64 total_movies;
+[2024-02-02T16:17:42.609+0100] {spark_submit.py:571} INFO - }
+[2024-02-02T16:17:42.609+0100] {spark_submit.py:571} INFO - 
+[2024-02-02T16:17:42.610+0100] {spark_submit.py:571} INFO - 
+[2024-02-02T16:17:43.727+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:43 INFO CodecPool: Got brand-new compressor [.snappy]
+[2024-02-02T16:17:43.905+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:43 INFO BlockManagerInfo: Removed broadcast_5_piece0 on 10.0.2.15:43417 in memory (size: 20.4 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:44.003+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:44 INFO BlockManagerInfo: Removed broadcast_4_piece0 on 10.0.2.15:43417 in memory (size: 19.6 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:46.966+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:46 INFO FileOutputCommitter: Saved output of task 'attempt_202402021617409012444735241407964_0008_m_000000_4' to hdfs://localhost:9000/user/project/datalake/usage/2024-02-02/movies_progression_years.parquet/_temporary/0/task_202402021617409012444735241407964_0008_m_000000
+[2024-02-02T16:17:47.020+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO SparkHadoopMapRedUtil: attempt_202402021617409012444735241407964_0008_m_000000_4: Committed. Elapsed time: 64 ms.
+[2024-02-02T16:17:47.053+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO Executor: Finished task 0.0 in stage 8.0 (TID 4). 5862 bytes result sent to driver
+[2024-02-02T16:17:47.150+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO TaskSetManager: Finished task 0.0 in stage 8.0 (TID 4) in 5901 ms on 10.0.2.15 (executor driver) (1/1)
+[2024-02-02T16:17:47.150+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO DAGScheduler: ResultStage 8 (parquet at MnMcount.scala:47) finished in 6.101 s
+[2024-02-02T16:17:47.155+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO DAGScheduler: Job 4 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-02-02T16:17:47.156+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO TaskSchedulerImpl: Removed TaskSet 8.0, whose tasks have all completed, from pool
+[2024-02-02T16:17:47.178+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO TaskSchedulerImpl: Killing all running tasks in stage 8: Stage finished
+[2024-02-02T16:17:47.179+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO DAGScheduler: Job 4 finished: parquet at MnMcount.scala:47, took 6.172537 s
+[2024-02-02T16:17:47.185+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO FileFormatWriter: Start to commit write Job 467bc55d-c2c4-418e-a9c9-120394ba2a96.
+[2024-02-02T16:17:47.500+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO FileFormatWriter: Write Job 467bc55d-c2c4-418e-a9c9-120394ba2a96 committed. Elapsed time: 313 ms.
+[2024-02-02T16:17:47.515+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO FileFormatWriter: Finished processing stats for write job 467bc55d-c2c4-418e-a9c9-120394ba2a96.
+[2024-02-02T16:17:48.003+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO FileSourceStrategy: Pushed Filters:
+[2024-02-02T16:17:48.004+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:47 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(year(cast(gettimestamp(release_date#9, yyyy-MM-dd, TimestampType, Some(Europe/Paris), false) as date)))
+[2024-02-02T16:17:48.005+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO FileSourceStrategy: Output Data Schema: struct<id: bigint, release_date: string>
+[2024-02-02T16:17:48.160+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 199.4 KiB, free 433.7 MiB)
+[2024-02-02T16:17:48.182+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 433.6 MiB)
+[2024-02-02T16:17:48.188+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on 10.0.2.15:43417 (size: 34.1 KiB, free: 434.2 MiB)
+[2024-02-02T16:17:48.194+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO SparkContext: Created broadcast 7 from show at MnMcount.scala:49
+[2024-02-02T16:17:48.198+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2024-02-02T16:17:48.227+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO DAGScheduler: Registering RDD 18 (show at MnMcount.scala:49) as input to shuffle 2
+[2024-02-02T16:17:48.228+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO DAGScheduler: Got map stage job 5 (show at MnMcount.scala:49) with 1 output partitions
+[2024-02-02T16:17:48.230+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO DAGScheduler: Final stage: ShuffleMapStage 9 (show at MnMcount.scala:49)
+[2024-02-02T16:17:48.231+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO DAGScheduler: Parents of final stage: List()
+[2024-02-02T16:17:48.232+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO DAGScheduler: Missing parents: List()
+[2024-02-02T16:17:48.236+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO DAGScheduler: Submitting ShuffleMapStage 9 (MapPartitionsRDD[18] at show at MnMcount.scala:49), which has no missing parents
+[2024-02-02T16:17:48.251+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 41.7 KiB, free 433.6 MiB)
+[2024-02-02T16:17:48.255+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 19.6 KiB, free 433.6 MiB)
+[2024-02-02T16:17:48.271+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on 10.0.2.15:43417 (size: 19.6 KiB, free: 434.2 MiB)
+[2024-02-02T16:17:48.273+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO SparkContext: Created broadcast 8 from broadcast at DAGScheduler.scala:1509
+[2024-02-02T16:17:48.276+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 9 (MapPartitionsRDD[18] at show at MnMcount.scala:49) (first 15 tasks are for partitions Vector(0))
+[2024-02-02T16:17:48.277+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO TaskSchedulerImpl: Adding task set 9.0 with 1 tasks resource profile 0
+[2024-02-02T16:17:48.283+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO TaskSetManager: Starting task 0.0 in stage 9.0 (TID 5) (10.0.2.15, executor driver, partition 0, ANY, 4943 bytes) taskResourceAssignments Map()
+[2024-02-02T16:17:48.284+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO Executor: Running task 0.0 in stage 9.0 (TID 5)
+[2024-02-02T16:17:48.327+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:48 INFO FileScanRDD: Reading File path: hdfs://localhost:9000/user/project/datalake/raw/2024-02-02/tmdb_popular_movies.json, range: 0-6658902, partition values: [empty row]
+[2024-02-02T16:17:49.281+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO Executor: Finished task 0.0 in stage 9.0 (TID 5). 2780 bytes result sent to driver
+[2024-02-02T16:17:49.299+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO TaskSetManager: Finished task 0.0 in stage 9.0 (TID 5) in 1011 ms on 10.0.2.15 (executor driver) (1/1)
+[2024-02-02T16:17:49.299+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO TaskSchedulerImpl: Removed TaskSet 9.0, whose tasks have all completed, from pool
+[2024-02-02T16:17:49.309+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO DAGScheduler: ShuffleMapStage 9 (show at MnMcount.scala:49) finished in 1.060 s
+[2024-02-02T16:17:49.309+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO DAGScheduler: looking for newly runnable stages
+[2024-02-02T16:17:49.310+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO DAGScheduler: running: Set()
+[2024-02-02T16:17:49.310+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO DAGScheduler: waiting: Set()
+[2024-02-02T16:17:49.311+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO DAGScheduler: failed: Set()
+[2024-02-02T16:17:49.336+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO ShufflePartitionsUtil: For shuffle(2), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2024-02-02T16:17:49.422+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+[2024-02-02T16:17:49.583+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO SparkContext: Starting job: show at MnMcount.scala:49
+[2024-02-02T16:17:49.587+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO DAGScheduler: Got job 6 (show at MnMcount.scala:49) with 1 output partitions
+[2024-02-02T16:17:49.587+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO DAGScheduler: Final stage: ResultStage 11 (show at MnMcount.scala:49)
+[2024-02-02T16:17:49.588+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 10)
+[2024-02-02T16:17:49.588+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO DAGScheduler: Missing parents: List()
+[2024-02-02T16:17:49.600+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO DAGScheduler: Submitting ResultStage 11 (MapPartitionsRDD[22] at show at MnMcount.scala:49), which has no missing parents
+[2024-02-02T16:17:49.673+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 41.1 KiB, free 433.5 MiB)
+[2024-02-02T16:17:49.707+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 19.6 KiB, free 433.5 MiB)
+[2024-02-02T16:17:49.713+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on 10.0.2.15:43417 (size: 19.6 KiB, free: 434.2 MiB)
+[2024-02-02T16:17:49.728+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO SparkContext: Created broadcast 9 from broadcast at DAGScheduler.scala:1509
+[2024-02-02T16:17:49.732+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO BlockManagerInfo: Removed broadcast_8_piece0 on 10.0.2.15:43417 in memory (size: 19.6 KiB, free: 434.2 MiB)
+[2024-02-02T16:17:49.740+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 11 (MapPartitionsRDD[22] at show at MnMcount.scala:49) (first 15 tasks are for partitions Vector(0))
+[2024-02-02T16:17:49.748+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO TaskSchedulerImpl: Adding task set 11.0 with 1 tasks resource profile 0
+[2024-02-02T16:17:49.749+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO TaskSetManager: Starting task 0.0 in stage 11.0 (TID 6) (10.0.2.15, executor driver, partition 0, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+[2024-02-02T16:17:49.754+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO Executor: Running task 0.0 in stage 11.0 (TID 6)
+[2024-02-02T16:17:49.835+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO ShuffleBlockFetcherIterator: Getting 1 (5.7 KiB) non-empty blocks including 1 (5.7 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2024-02-02T16:17:49.837+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 6 ms
+[2024-02-02T16:17:49.854+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:49 INFO BlockManagerInfo: Removed broadcast_6_piece0 on 10.0.2.15:43417 in memory (size: 88.8 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:50.073+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:50 INFO Executor: Finished task 0.0 in stage 11.0 (TID 6). 10421 bytes result sent to driver
+[2024-02-02T16:17:50.096+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:50 INFO TaskSetManager: Finished task 0.0 in stage 11.0 (TID 6) in 352 ms on 10.0.2.15 (executor driver) (1/1)
+[2024-02-02T16:17:50.103+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:50 INFO DAGScheduler: ResultStage 11 (show at MnMcount.scala:49) finished in 0.487 s
+[2024-02-02T16:17:50.107+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:50 INFO DAGScheduler: Job 6 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-02-02T16:17:50.108+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:50 INFO TaskSchedulerImpl: Removed TaskSet 11.0, whose tasks have all completed, from pool
+[2024-02-02T16:17:50.109+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:50 INFO TaskSchedulerImpl: Killing all running tasks in stage 11: Stage finished
+[2024-02-02T16:17:50.112+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:50 INFO DAGScheduler: Job 6 finished: show at MnMcount.scala:49, took 0.529259 s
+[2024-02-02T16:17:50.222+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:50 INFO CodeGenerator: Code generated in 70.176101 ms
+[2024-02-02T16:17:50.309+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:50 INFO CodeGenerator: Code generated in 26.187594 ms
+[2024-02-02T16:17:50.397+0100] {spark_submit.py:571} INFO - +----+------------+
+[2024-02-02T16:17:50.398+0100] {spark_submit.py:571} INFO - |year|total_movies|
+[2024-02-02T16:17:50.399+0100] {spark_submit.py:571} INFO - +----+------------+
+[2024-02-02T16:17:50.399+0100] {spark_submit.py:571} INFO - |1902|           1|
+[2024-02-02T16:17:50.400+0100] {spark_submit.py:571} INFO - |1921|           1|
+[2024-02-02T16:17:50.400+0100] {spark_submit.py:571} INFO - |1922|           2|
+[2024-02-02T16:17:50.401+0100] {spark_submit.py:571} INFO - |1925|           2|
+[2024-02-02T16:17:50.401+0100] {spark_submit.py:571} INFO - |1927|           2|
+[2024-02-02T16:17:50.402+0100] {spark_submit.py:571} INFO - |1928|           1|
+[2024-02-02T16:17:50.402+0100] {spark_submit.py:571} INFO - |1929|           1|
+[2024-02-02T16:17:50.402+0100] {spark_submit.py:571} INFO - |1930|           3|
+[2024-02-02T16:17:50.402+0100] {spark_submit.py:571} INFO - |1931|           6|
+[2024-02-02T16:17:50.403+0100] {spark_submit.py:571} INFO - |1932|           3|
+[2024-02-02T16:17:50.403+0100] {spark_submit.py:571} INFO - |1933|           4|
+[2024-02-02T16:17:50.403+0100] {spark_submit.py:571} INFO - |1934|           1|
+[2024-02-02T16:17:50.405+0100] {spark_submit.py:571} INFO - |1935|           4|
+[2024-02-02T16:17:50.419+0100] {spark_submit.py:571} INFO - |1936|           2|
+[2024-02-02T16:17:50.420+0100] {spark_submit.py:571} INFO - |1937|           1|
+[2024-02-02T16:17:50.420+0100] {spark_submit.py:571} INFO - |1938|           3|
+[2024-02-02T16:17:50.421+0100] {spark_submit.py:571} INFO - |1939|           9|
+[2024-02-02T16:17:50.421+0100] {spark_submit.py:571} INFO - |1940|           7|
+[2024-02-02T16:17:50.422+0100] {spark_submit.py:571} INFO - |1941|           8|
+[2024-02-02T16:17:50.423+0100] {spark_submit.py:571} INFO - |1942|           4|
+[2024-02-02T16:17:50.424+0100] {spark_submit.py:571} INFO - |1943|           4|
+[2024-02-02T16:17:50.424+0100] {spark_submit.py:571} INFO - |1944|           3|
+[2024-02-02T16:17:50.425+0100] {spark_submit.py:571} INFO - |1945|           8|
+[2024-02-02T16:17:50.428+0100] {spark_submit.py:571} INFO - |1946|          11|
+[2024-02-02T16:17:50.430+0100] {spark_submit.py:571} INFO - |1947|           5|
+[2024-02-02T16:17:50.434+0100] {spark_submit.py:571} INFO - |1948|           6|
+[2024-02-02T16:17:50.435+0100] {spark_submit.py:571} INFO - |1949|           7|
+[2024-02-02T16:17:50.435+0100] {spark_submit.py:571} INFO - |1950|          10|
+[2024-02-02T16:17:50.441+0100] {spark_submit.py:571} INFO - |1951|           6|
+[2024-02-02T16:17:50.442+0100] {spark_submit.py:571} INFO - |1952|           7|
+[2024-02-02T16:17:50.442+0100] {spark_submit.py:571} INFO - |1953|          20|
+[2024-02-02T16:17:50.444+0100] {spark_submit.py:571} INFO - |1954|          15|
+[2024-02-02T16:17:50.445+0100] {spark_submit.py:571} INFO - |1955|          12|
+[2024-02-02T16:17:50.449+0100] {spark_submit.py:571} INFO - |1956|          14|
+[2024-02-02T16:17:50.450+0100] {spark_submit.py:571} INFO - |1957|          12|
+[2024-02-02T16:17:50.450+0100] {spark_submit.py:571} INFO - |1958|          19|
+[2024-02-02T16:17:50.450+0100] {spark_submit.py:571} INFO - |1959|          19|
+[2024-02-02T16:17:50.451+0100] {spark_submit.py:571} INFO - |1960|          16|
+[2024-02-02T16:17:50.451+0100] {spark_submit.py:571} INFO - |1961|          14|
+[2024-02-02T16:17:50.451+0100] {spark_submit.py:571} INFO - |1962|          23|
+[2024-02-02T16:17:50.451+0100] {spark_submit.py:571} INFO - |1963|          25|
+[2024-02-02T16:17:50.452+0100] {spark_submit.py:571} INFO - |1964|          19|
+[2024-02-02T16:17:50.452+0100] {spark_submit.py:571} INFO - |1965|          22|
+[2024-02-02T16:17:50.453+0100] {spark_submit.py:571} INFO - |1966|          22|
+[2024-02-02T16:17:50.457+0100] {spark_submit.py:571} INFO - |1967|          26|
+[2024-02-02T16:17:50.458+0100] {spark_submit.py:571} INFO - |1968|          30|
+[2024-02-02T16:17:50.458+0100] {spark_submit.py:571} INFO - |1969|          21|
+[2024-02-02T16:17:50.459+0100] {spark_submit.py:571} INFO - |1970|          19|
+[2024-02-02T16:17:50.460+0100] {spark_submit.py:571} INFO - |1971|          26|
+[2024-02-02T16:17:50.460+0100] {spark_submit.py:571} INFO - |1972|          26|
+[2024-02-02T16:17:50.460+0100] {spark_submit.py:571} INFO - |1973|          46|
+[2024-02-02T16:17:50.461+0100] {spark_submit.py:571} INFO - |1974|          30|
+[2024-02-02T16:17:50.462+0100] {spark_submit.py:571} INFO - |1975|          29|
+[2024-02-02T16:17:50.462+0100] {spark_submit.py:571} INFO - |1976|          37|
+[2024-02-02T16:17:50.463+0100] {spark_submit.py:571} INFO - |1977|          31|
+[2024-02-02T16:17:50.463+0100] {spark_submit.py:571} INFO - |1978|          46|
+[2024-02-02T16:17:50.463+0100] {spark_submit.py:571} INFO - |1979|          36|
+[2024-02-02T16:17:50.463+0100] {spark_submit.py:571} INFO - |1980|          48|
+[2024-02-02T16:17:50.463+0100] {spark_submit.py:571} INFO - |1981|          63|
+[2024-02-02T16:17:50.464+0100] {spark_submit.py:571} INFO - |1982|          46|
+[2024-02-02T16:17:50.464+0100] {spark_submit.py:571} INFO - |1983|          51|
+[2024-02-02T16:17:50.464+0100] {spark_submit.py:571} INFO - |1984|          73|
+[2024-02-02T16:17:50.464+0100] {spark_submit.py:571} INFO - |1985|          82|
+[2024-02-02T16:17:50.464+0100] {spark_submit.py:571} INFO - |1986|          72|
+[2024-02-02T16:17:50.465+0100] {spark_submit.py:571} INFO - |1987|          75|
+[2024-02-02T16:17:50.466+0100] {spark_submit.py:571} INFO - |1988|          77|
+[2024-02-02T16:17:50.466+0100] {spark_submit.py:571} INFO - |1989|          84|
+[2024-02-02T16:17:50.466+0100] {spark_submit.py:571} INFO - |1990|          82|
+[2024-02-02T16:17:50.467+0100] {spark_submit.py:571} INFO - |1991|          93|
+[2024-02-02T16:17:50.468+0100] {spark_submit.py:571} INFO - |1992|          99|
+[2024-02-02T16:17:50.468+0100] {spark_submit.py:571} INFO - |1993|         120|
+[2024-02-02T16:17:50.472+0100] {spark_submit.py:571} INFO - |1994|         113|
+[2024-02-02T16:17:50.473+0100] {spark_submit.py:571} INFO - |1995|         134|
+[2024-02-02T16:17:50.474+0100] {spark_submit.py:571} INFO - |1996|         109|
+[2024-02-02T16:17:50.474+0100] {spark_submit.py:571} INFO - |1997|         123|
+[2024-02-02T16:17:50.475+0100] {spark_submit.py:571} INFO - |1998|         138|
+[2024-02-02T16:17:50.475+0100] {spark_submit.py:571} INFO - |1999|         139|
+[2024-02-02T16:17:50.478+0100] {spark_submit.py:571} INFO - |2000|         136|
+[2024-02-02T16:17:50.478+0100] {spark_submit.py:571} INFO - |2001|         132|
+[2024-02-02T16:17:50.480+0100] {spark_submit.py:571} INFO - |2002|         157|
+[2024-02-02T16:17:50.481+0100] {spark_submit.py:571} INFO - |2003|         152|
+[2024-02-02T16:17:50.481+0100] {spark_submit.py:571} INFO - |2004|         201|
+[2024-02-02T16:17:50.481+0100] {spark_submit.py:571} INFO - |2005|         178|
+[2024-02-02T16:17:50.481+0100] {spark_submit.py:571} INFO - |2006|         228|
+[2024-02-02T16:17:50.482+0100] {spark_submit.py:571} INFO - |2007|         209|
+[2024-02-02T16:17:50.482+0100] {spark_submit.py:571} INFO - |2008|         197|
+[2024-02-02T16:17:50.482+0100] {spark_submit.py:571} INFO - |2009|         230|
+[2024-02-02T16:17:50.482+0100] {spark_submit.py:571} INFO - |2010|         246|
+[2024-02-02T16:17:50.482+0100] {spark_submit.py:571} INFO - |2011|         240|
+[2024-02-02T16:17:50.482+0100] {spark_submit.py:571} INFO - |2012|         257|
+[2024-02-02T16:17:50.483+0100] {spark_submit.py:571} INFO - |2013|         309|
+[2024-02-02T16:17:50.483+0100] {spark_submit.py:571} INFO - |2014|         291|
+[2024-02-02T16:17:50.483+0100] {spark_submit.py:571} INFO - |2015|         297|
+[2024-02-02T16:17:50.483+0100] {spark_submit.py:571} INFO - |2016|         317|
+[2024-02-02T16:17:50.483+0100] {spark_submit.py:571} INFO - |2017|         350|
+[2024-02-02T16:17:50.483+0100] {spark_submit.py:571} INFO - |2018|         390|
+[2024-02-02T16:17:50.484+0100] {spark_submit.py:571} INFO - |2019|         421|
+[2024-02-02T16:17:50.484+0100] {spark_submit.py:571} INFO - |2020|         411|
+[2024-02-02T16:17:50.484+0100] {spark_submit.py:571} INFO - |2021|         500|
+[2024-02-02T16:17:50.489+0100] {spark_submit.py:571} INFO - |2022|         575|
+[2024-02-02T16:17:50.489+0100] {spark_submit.py:571} INFO - +----+------------+
+[2024-02-02T16:17:50.490+0100] {spark_submit.py:571} INFO - only showing top 100 rows
+[2024-02-02T16:17:50.490+0100] {spark_submit.py:571} INFO - 
+[2024-02-02T16:17:51.190+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO FileSourceStrategy: Pushed Filters:
+[2024-02-02T16:17:51.194+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(year(cast(gettimestamp(release_date#9, yyyy-MM-dd, TimestampType, Some(Europe/Paris), false) as date)))
+[2024-02-02T16:17:51.198+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO FileSourceStrategy: Output Data Schema: struct<original_language: string, popularity: double, release_date: string, vote_count: bigint ... 2 more fields>
+[2024-02-02T16:17:51.560+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO CodeGenerator: Code generated in 38.814869 ms
+[2024-02-02T16:17:51.567+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO MemoryStore: Block broadcast_10 stored as values in memory (estimated size 199.4 KiB, free 433.7 MiB)
+[2024-02-02T16:17:51.596+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO MemoryStore: Block broadcast_10_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 433.7 MiB)
+[2024-02-02T16:17:51.599+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO BlockManagerInfo: Added broadcast_10_piece0 in memory on 10.0.2.15:43417 (size: 34.1 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:51.602+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO SparkContext: Created broadcast 10 from show at MnMcount.scala:66
+[2024-02-02T16:17:51.606+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2024-02-02T16:17:51.626+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO DAGScheduler: Registering RDD 26 (show at MnMcount.scala:66) as input to shuffle 3
+[2024-02-02T16:17:51.627+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO DAGScheduler: Got map stage job 7 (show at MnMcount.scala:66) with 1 output partitions
+[2024-02-02T16:17:51.627+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO DAGScheduler: Final stage: ShuffleMapStage 12 (show at MnMcount.scala:66)
+[2024-02-02T16:17:51.628+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO DAGScheduler: Parents of final stage: List()
+[2024-02-02T16:17:51.629+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO DAGScheduler: Missing parents: List()
+[2024-02-02T16:17:51.636+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO DAGScheduler: Submitting ShuffleMapStage 12 (MapPartitionsRDD[26] at show at MnMcount.scala:66), which has no missing parents
+[2024-02-02T16:17:51.669+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO MemoryStore: Block broadcast_11 stored as values in memory (estimated size 19.2 KiB, free 433.6 MiB)
+[2024-02-02T16:17:51.708+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO MemoryStore: Block broadcast_11_piece0 stored as bytes in memory (estimated size 9.1 KiB, free 433.6 MiB)
+[2024-02-02T16:17:51.709+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO BlockManagerInfo: Added broadcast_11_piece0 in memory on 10.0.2.15:43417 (size: 9.1 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:51.728+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO SparkContext: Created broadcast 11 from broadcast at DAGScheduler.scala:1509
+[2024-02-02T16:17:51.731+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 12 (MapPartitionsRDD[26] at show at MnMcount.scala:66) (first 15 tasks are for partitions Vector(0))
+[2024-02-02T16:17:51.736+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO TaskSchedulerImpl: Adding task set 12.0 with 1 tasks resource profile 0
+[2024-02-02T16:17:51.742+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO TaskSetManager: Starting task 0.0 in stage 12.0 (TID 7) (10.0.2.15, executor driver, partition 0, ANY, 4943 bytes) taskResourceAssignments Map()
+[2024-02-02T16:17:51.746+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO Executor: Running task 0.0 in stage 12.0 (TID 7)
+[2024-02-02T16:17:51.760+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO BlockManagerInfo: Removed broadcast_9_piece0 on 10.0.2.15:43417 in memory (size: 19.6 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:51.807+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO FileScanRDD: Reading File path: hdfs://localhost:9000/user/project/datalake/raw/2024-02-02/tmdb_popular_movies.json, range: 0-6658902, partition values: [empty row]
+[2024-02-02T16:17:51.845+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO CodeGenerator: Code generated in 26.316528 ms
+[2024-02-02T16:17:51.905+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:51 INFO BlockManagerInfo: Removed broadcast_7_piece0 on 10.0.2.15:43417 in memory (size: 34.1 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:53.167+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO Executor: Finished task 0.0 in stage 12.0 (TID 7). 2038 bytes result sent to driver
+[2024-02-02T16:17:53.178+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO TaskSetManager: Finished task 0.0 in stage 12.0 (TID 7) in 1429 ms on 10.0.2.15 (executor driver) (1/1)
+[2024-02-02T16:17:53.179+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO TaskSchedulerImpl: Removed TaskSet 12.0, whose tasks have all completed, from pool
+[2024-02-02T16:17:53.179+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: ShuffleMapStage 12 (show at MnMcount.scala:66) finished in 1.530 s
+[2024-02-02T16:17:53.180+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: looking for newly runnable stages
+[2024-02-02T16:17:53.180+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: running: Set()
+[2024-02-02T16:17:53.181+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: waiting: Set()
+[2024-02-02T16:17:53.181+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: failed: Set()
+[2024-02-02T16:17:53.200+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO ShufflePartitionsUtil: For shuffle(3), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2024-02-02T16:17:53.284+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO CodeGenerator: Code generated in 23.53524 ms
+[2024-02-02T16:17:53.340+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO CodeGenerator: Code generated in 35.97375 ms
+[2024-02-02T16:17:53.405+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO SparkContext: Starting job: show at MnMcount.scala:66
+[2024-02-02T16:17:53.411+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: Got job 8 (show at MnMcount.scala:66) with 1 output partitions
+[2024-02-02T16:17:53.412+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: Final stage: ResultStage 14 (show at MnMcount.scala:66)
+[2024-02-02T16:17:53.413+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 13)
+[2024-02-02T16:17:53.414+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: Missing parents: List()
+[2024-02-02T16:17:53.421+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: Submitting ResultStage 14 (MapPartitionsRDD[31] at show at MnMcount.scala:66), which has no missing parents
+[2024-02-02T16:17:53.443+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO MemoryStore: Block broadcast_12 stored as values in memory (estimated size 38.5 KiB, free 433.9 MiB)
+[2024-02-02T16:17:53.450+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO MemoryStore: Block broadcast_12_piece0 stored as bytes in memory (estimated size 18.4 KiB, free 433.9 MiB)
+[2024-02-02T16:17:53.454+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO BlockManagerInfo: Added broadcast_12_piece0 in memory on 10.0.2.15:43417 (size: 18.4 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:53.456+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO SparkContext: Created broadcast 12 from broadcast at DAGScheduler.scala:1509
+[2024-02-02T16:17:53.458+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 14 (MapPartitionsRDD[31] at show at MnMcount.scala:66) (first 15 tasks are for partitions Vector(0))
+[2024-02-02T16:17:53.460+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO TaskSchedulerImpl: Adding task set 14.0 with 1 tasks resource profile 0
+[2024-02-02T16:17:53.465+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO TaskSetManager: Starting task 0.0 in stage 14.0 (TID 8) (10.0.2.15, executor driver, partition 0, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+[2024-02-02T16:17:53.467+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO Executor: Running task 0.0 in stage 14.0 (TID 8)
+[2024-02-02T16:17:53.568+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO ShuffleBlockFetcherIterator: Getting 1 (136.2 KiB) non-empty blocks including 1 (136.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2024-02-02T16:17:53.568+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+[2024-02-02T16:17:53.592+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO CodeGenerator: Code generated in 15.256902 ms
+[2024-02-02T16:17:53.638+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO CodeGenerator: Code generated in 20.423734 ms
+[2024-02-02T16:17:53.805+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO CodeGenerator: Code generated in 9.125001 ms
+[2024-02-02T16:17:53.824+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO CodeGenerator: Code generated in 11.894771 ms
+[2024-02-02T16:17:53.840+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO CodeGenerator: Code generated in 12.183956 ms
+[2024-02-02T16:17:53.938+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO Executor: Finished task 0.0 in stage 14.0 (TID 8). 5779 bytes result sent to driver
+[2024-02-02T16:17:53.943+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO TaskSetManager: Finished task 0.0 in stage 14.0 (TID 8) in 479 ms on 10.0.2.15 (executor driver) (1/1)
+[2024-02-02T16:17:53.951+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO TaskSchedulerImpl: Removed TaskSet 14.0, whose tasks have all completed, from pool
+[2024-02-02T16:17:53.952+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: ResultStage 14 (show at MnMcount.scala:66) finished in 0.517 s
+[2024-02-02T16:17:53.954+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: Job 8 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-02-02T16:17:53.955+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO TaskSchedulerImpl: Killing all running tasks in stage 14: Stage finished
+[2024-02-02T16:17:53.956+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:53 INFO DAGScheduler: Job 8 finished: show at MnMcount.scala:66, took 0.544761 s
+[2024-02-02T16:17:54.027+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO CodeGenerator: Code generated in 52.742428 ms
+[2024-02-02T16:17:54.046+0100] {spark_submit.py:571} INFO - +----+-----------------+----------+----------+
+[2024-02-02T16:17:54.047+0100] {spark_submit.py:571} INFO - |year|original_language|vote_count|popularity|
+[2024-02-02T16:17:54.048+0100] {spark_submit.py:571} INFO - +----+-----------------+----------+----------+
+[2024-02-02T16:17:54.048+0100] {spark_submit.py:571} INFO - |1902|               fr|      1652|    24.237|
+[2024-02-02T16:17:54.048+0100] {spark_submit.py:571} INFO - |1921|               en|      1942|    18.013|
+[2024-02-02T16:17:54.048+0100] {spark_submit.py:571} INFO - |1922|               de|      1834|    23.724|
+[2024-02-02T16:17:54.049+0100] {spark_submit.py:571} INFO - |1925|               en|      1481|    18.038|
+[2024-02-02T16:17:54.050+0100] {spark_submit.py:571} INFO - |1927|               de|      2523|    31.107|
+[2024-02-02T16:17:54.050+0100] {spark_submit.py:571} INFO - |1928|               fr|       856|    19.497|
+[2024-02-02T16:17:54.050+0100] {spark_submit.py:571} INFO - |1929|               fr|      1209|    19.728|
+[2024-02-02T16:17:54.051+0100] {spark_submit.py:571} INFO - |1930|               en|       731|    24.417|
+[2024-02-02T16:17:54.051+0100] {spark_submit.py:571} INFO - |1931|               en|      2021|    30.757|
+[2024-02-02T16:17:54.051+0100] {spark_submit.py:571} INFO - |1932|               en|       567|    18.157|
+[2024-02-02T16:17:54.051+0100] {spark_submit.py:571} INFO - |1933|               en|      1367|    26.143|
+[2024-02-02T16:17:54.052+0100] {spark_submit.py:571} INFO - |1934|               en|       126|    15.496|
+[2024-02-02T16:17:54.052+0100] {spark_submit.py:571} INFO - |1935|               en|       880|    23.698|
+[2024-02-02T16:17:54.052+0100] {spark_submit.py:571} INFO - |1936|               en|      3488|    22.992|
+[2024-02-02T16:17:54.052+0100] {spark_submit.py:571} INFO - |1937|               en|      7009|    64.682|
+[2024-02-02T16:17:54.052+0100] {spark_submit.py:571} INFO - |1938|               en|       691|    23.591|
+[2024-02-02T16:17:54.053+0100] {spark_submit.py:571} INFO - |1939|               en|      5231|    49.832|
+[2024-02-02T16:17:54.053+0100] {spark_submit.py:571} INFO - |1940|               en|      5563|    52.918|
+[2024-02-02T16:17:54.053+0100] {spark_submit.py:571} INFO - |1941|               en|      5183|    29.543|
+[2024-02-02T16:17:54.053+0100] {spark_submit.py:571} INFO - |1942|               en|      5349|    54.236|
+[2024-02-02T16:17:54.053+0100] {spark_submit.py:571} INFO - |1943|               en|      5093|    33.974|
+[2024-02-02T16:17:54.054+0100] {spark_submit.py:571} INFO - |1944|               en|      1674|    19.834|
+[2024-02-02T16:17:54.054+0100] {spark_submit.py:571} INFO - |1945|               en|       828|    14.644|
+[2024-02-02T16:17:54.054+0100] {spark_submit.py:571} INFO - |1946|               en|      4026|    41.558|
+[2024-02-02T16:17:54.054+0100] {spark_submit.py:571} INFO - |1947|               en|       683|    29.902|
+[2024-02-02T16:17:54.054+0100] {spark_submit.py:571} INFO - |1948|               en|      2483|    22.858|
+[2024-02-02T16:17:54.055+0100] {spark_submit.py:571} INFO - |1949|               en|      1723|    15.465|
+[2024-02-02T16:17:54.055+0100] {spark_submit.py:571} INFO - |1950|               en|      6384|    86.807|
+[2024-02-02T16:17:54.055+0100] {spark_submit.py:571} INFO - |1951|               en|      5575|    61.113|
+[2024-02-02T16:17:54.055+0100] {spark_submit.py:571} INFO - |1952|               en|      2934|    28.341|
+[2024-02-02T16:17:54.055+0100] {spark_submit.py:571} INFO - |1953|               en|      5108|     52.16|
+[2024-02-02T16:17:54.056+0100] {spark_submit.py:571} INFO - |1954|               en|      6109|    30.709|
+[2024-02-02T16:17:54.056+0100] {spark_submit.py:571} INFO - |1955|               en|      4988|    44.079|
+[2024-02-02T16:17:54.056+0100] {spark_submit.py:571} INFO - |1956|               en|      1301|    28.171|
+[2024-02-02T16:17:54.056+0100] {spark_submit.py:571} INFO - |1957|               en|      7990|    47.492|
+[2024-02-02T16:17:54.056+0100] {spark_submit.py:571} INFO - |1958|               en|      5394|    29.865|
+[2024-02-02T16:17:54.057+0100] {spark_submit.py:571} INFO - |1959|               en|      4891|      46.6|
+[2024-02-02T16:17:54.057+0100] {spark_submit.py:571} INFO - |1960|               en|      9552|    47.128|
+[2024-02-02T16:17:54.057+0100] {spark_submit.py:571} INFO - |1961|               en|      3977|     31.81|
+[2024-02-02T16:17:54.057+0100] {spark_submit.py:571} INFO - |1962|               en|      2774|    30.865|
+[2024-02-02T16:17:54.057+0100] {spark_submit.py:571} INFO - |1963|               en|      3820|    26.335|
+[2024-02-02T16:17:54.058+0100] {spark_submit.py:571} INFO - |1964|               it|      3895|    31.717|
+[2024-02-02T16:17:54.058+0100] {spark_submit.py:571} INFO - |1965|               it|      3681|    36.222|
+[2024-02-02T16:17:54.058+0100] {spark_submit.py:571} INFO - |1966|               it|      8046|    75.144|
+[2024-02-02T16:17:54.058+0100] {spark_submit.py:571} INFO - |1967|               en|      5934|    61.115|
+[2024-02-02T16:17:54.058+0100] {spark_submit.py:571} INFO - |1968|               en|     10870|    53.027|
+[2024-02-02T16:17:54.059+0100] {spark_submit.py:571} INFO - |1969|               en|      1838|    22.934|
+[2024-02-02T16:17:54.059+0100] {spark_submit.py:571} INFO - |1970|               en|      4764|    39.562|
+[2024-02-02T16:17:54.059+0100] {spark_submit.py:571} INFO - |1971|               en|     12253|    50.188|
+[2024-02-02T16:17:54.059+0100] {spark_submit.py:571} INFO - |1972|               en|     19380|   116.597|
+[2024-02-02T16:17:54.059+0100] {spark_submit.py:571} INFO - |1973|               en|      7544|    54.641|
+[2024-02-02T16:17:54.060+0100] {spark_submit.py:571} INFO - |1974|               en|     11692|    72.163|
+[2024-02-02T16:17:54.060+0100] {spark_submit.py:571} INFO - |1975|               en|      9909|    52.748|
+[2024-02-02T16:17:54.060+0100] {spark_submit.py:571} INFO - |1976|               en|     11480|    50.881|
+[2024-02-02T16:17:54.061+0100] {spark_submit.py:571} INFO - |1977|               en|     19613|    88.439|
+[2024-02-02T16:17:54.061+0100] {spark_submit.py:571} INFO - |1978|               en|      6881|    47.912|
+[2024-02-02T16:17:54.061+0100] {spark_submit.py:571} INFO - |1979|               en|     13602|    67.901|
+[2024-02-02T16:17:54.062+0100] {spark_submit.py:571} INFO - |1980|               en|     16621|     51.07|
+[2024-02-02T16:17:54.062+0100] {spark_submit.py:571} INFO - |1981|               en|     11811|    61.749|
+[2024-02-02T16:17:54.062+0100] {spark_submit.py:571} INFO - |1982|               en|     10687|    44.483|
+[2024-02-02T16:17:54.062+0100] {spark_submit.py:571} INFO - |1983|               en|     14916|    36.247|
+[2024-02-02T16:17:54.062+0100] {spark_submit.py:571} INFO - |1984|               en|     12206|     65.03|
+[2024-02-02T16:17:54.063+0100] {spark_submit.py:571} INFO - |1985|               en|     18917|    74.252|
+[2024-02-02T16:17:54.063+0100] {spark_submit.py:571} INFO - |1986|               en|      5491|    35.439|
+[2024-02-02T16:17:54.063+0100] {spark_submit.py:571} INFO - |1987|               en|      9925|    40.929|
+[2024-02-02T16:17:54.063+0100] {spark_submit.py:571} INFO - |1988|               en|     10558|    49.951|
+[2024-02-02T16:17:54.063+0100] {spark_submit.py:571} INFO - |1989|               en|     12124|    40.834|
+[2024-02-02T16:17:54.064+0100] {spark_submit.py:571} INFO - |1990|               en|     12321|    53.932|
+[2024-02-02T16:17:54.064+0100] {spark_submit.py:571} INFO - |1991|               en|     12095|    76.972|
+[2024-02-02T16:17:54.064+0100] {spark_submit.py:571} INFO - |1992|               en|     13627|      43.8|
+[2024-02-02T16:17:54.064+0100] {spark_submit.py:571} INFO - |1993|               en|     15494|    28.177|
+[2024-02-02T16:17:54.064+0100] {spark_submit.py:571} INFO - |1994|               en|     26566|   142.492|
+[2024-02-02T16:17:54.065+0100] {spark_submit.py:571} INFO - |1995|               en|     19938|    79.057|
+[2024-02-02T16:17:54.065+0100] {spark_submit.py:571} INFO - |1996|               en|      9204|    33.066|
+[2024-02-02T16:17:54.065+0100] {spark_submit.py:571} INFO - |1997|               en|     24189|   113.982|
+[2024-02-02T16:17:54.065+0100] {spark_submit.py:571} INFO - |1998|               en|     17325|    59.548|
+[2024-02-02T16:17:54.065+0100] {spark_submit.py:571} INFO - |1999|               en|     27959|    77.954|
+[2024-02-02T16:17:54.066+0100] {spark_submit.py:571} INFO - |2000|               en|     17476|    69.272|
+[2024-02-02T16:17:54.066+0100] {spark_submit.py:571} INFO - |2001|               en|     26039|   181.848|
+[2024-02-02T16:17:54.066+0100] {spark_submit.py:571} INFO - |2002|               en|     20923|   146.266|
+[2024-02-02T16:17:54.066+0100] {spark_submit.py:571} INFO - |2003|               en|     22959|   103.055|
+[2024-02-02T16:17:54.066+0100] {spark_submit.py:571} INFO - |2004|               en|     20531|   140.944|
+[2024-02-02T16:17:54.066+0100] {spark_submit.py:571} INFO - |2005|               en|     20026|    55.901|
+[2024-02-02T16:17:54.067+0100] {spark_submit.py:571} INFO - |2006|               en|     15177|   113.435|
+[2024-02-02T16:17:54.067+0100] {spark_submit.py:571} INFO - |2007|               en|     16123|    99.634|
+[2024-02-02T16:17:54.067+0100] {spark_submit.py:571} INFO - |2008|               en|     31372|   107.315|
+[2024-02-02T16:17:54.067+0100] {spark_submit.py:571} INFO - |2009|               en|     30403|   132.506|
+[2024-02-02T16:17:54.067+0100] {spark_submit.py:571} INFO - |2010|               en|     35177|    91.926|
+[2024-02-02T16:17:54.068+0100] {spark_submit.py:571} INFO - |2011|               en|     20624|    54.314|
+[2024-02-02T16:17:54.068+0100] {spark_submit.py:571} INFO - |2012|               en|     29644|   105.633|
+[2024-02-02T16:17:54.068+0100] {spark_submit.py:571} INFO - |2013|               en|     22820|   102.467|
+[2024-02-02T16:17:54.069+0100] {spark_submit.py:571} INFO - |2014|               en|     33520|   166.797|
+[2024-02-02T16:17:54.069+0100] {spark_submit.py:571} INFO - |2015|               en|     22134|    84.387|
+[2024-02-02T16:17:54.069+0100] {spark_submit.py:571} INFO - |2016|               en|     29376|   113.589|
+[2024-02-02T16:17:54.070+0100] {spark_submit.py:571} INFO - |2017|               en|     20732|    66.035|
+[2024-02-02T16:17:54.070+0100] {spark_submit.py:571} INFO - |2018|               en|     28372|   192.144|
+[2024-02-02T16:17:54.071+0100] {spark_submit.py:571} INFO - |2019|               en|     24410|   112.479|
+[2024-02-02T16:17:54.071+0100] {spark_submit.py:571} INFO - |2020|               en|      9833|    53.829|
+[2024-02-02T16:17:54.071+0100] {spark_submit.py:571} INFO - |2021|               en|     18937|   186.318|
+[2024-02-02T16:17:54.076+0100] {spark_submit.py:571} INFO - |2022|               en|     10748|   276.806|
+[2024-02-02T16:17:54.076+0100] {spark_submit.py:571} INFO - +----+-----------------+----------+----------+
+[2024-02-02T16:17:54.077+0100] {spark_submit.py:571} INFO - only showing top 100 rows
+[2024-02-02T16:17:54.077+0100] {spark_submit.py:571} INFO - 
+[2024-02-02T16:17:54.077+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO BlockManagerInfo: Removed broadcast_12_piece0 on 10.0.2.15:43417 in memory (size: 18.4 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:54.115+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO BlockManagerInfo: Removed broadcast_11_piece0 on 10.0.2.15:43417 in memory (size: 9.1 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:54.164+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO FileSourceStrategy: Pushed Filters:
+[2024-02-02T16:17:54.164+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(year(cast(gettimestamp(release_date#9, yyyy-MM-dd, TimestampType, Some(Europe/Paris), false) as date)))
+[2024-02-02T16:17:54.166+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO FileSourceStrategy: Output Data Schema: struct<original_language: string, popularity: double, release_date: string, vote_count: bigint ... 2 more fields>
+[2024-02-02T16:17:54.218+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO ParquetFileFormat: Using default output committer for Parquet: org.apache.parquet.hadoop.ParquetOutputCommitter
+[2024-02-02T16:17:54.221+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2024-02-02T16:17:54.222+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2024-02-02T16:17:54.224+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[2024-02-02T16:17:54.224+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2024-02-02T16:17:54.225+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2024-02-02T16:17:54.230+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[2024-02-02T16:17:54.291+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO MemoryStore: Block broadcast_13 stored as values in memory (estimated size 199.4 KiB, free 433.7 MiB)
+[2024-02-02T16:17:54.311+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO MemoryStore: Block broadcast_13_piece0 stored as bytes in memory (estimated size 34.1 KiB, free 433.7 MiB)
+[2024-02-02T16:17:54.315+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO BlockManagerInfo: Added broadcast_13_piece0 in memory on 10.0.2.15:43417 (size: 34.1 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:54.316+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO SparkContext: Created broadcast 13 from parquet at MnMcount.scala:69
+[2024-02-02T16:17:54.321+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2024-02-02T16:17:54.346+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO DAGScheduler: Registering RDD 35 (parquet at MnMcount.scala:69) as input to shuffle 4
+[2024-02-02T16:17:54.357+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO DAGScheduler: Got map stage job 9 (parquet at MnMcount.scala:69) with 1 output partitions
+[2024-02-02T16:17:54.370+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO DAGScheduler: Final stage: ShuffleMapStage 15 (parquet at MnMcount.scala:69)
+[2024-02-02T16:17:54.371+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO DAGScheduler: Parents of final stage: List()
+[2024-02-02T16:17:54.372+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO DAGScheduler: Missing parents: List()
+[2024-02-02T16:17:54.373+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO DAGScheduler: Submitting ShuffleMapStage 15 (MapPartitionsRDD[35] at parquet at MnMcount.scala:69), which has no missing parents
+[2024-02-02T16:17:54.373+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO MemoryStore: Block broadcast_14 stored as values in memory (estimated size 19.2 KiB, free 433.7 MiB)
+[2024-02-02T16:17:54.374+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO MemoryStore: Block broadcast_14_piece0 stored as bytes in memory (estimated size 9.1 KiB, free 433.7 MiB)
+[2024-02-02T16:17:54.374+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO BlockManagerInfo: Added broadcast_14_piece0 in memory on 10.0.2.15:43417 (size: 9.1 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:54.375+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO SparkContext: Created broadcast 14 from broadcast at DAGScheduler.scala:1509
+[2024-02-02T16:17:54.375+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 15 (MapPartitionsRDD[35] at parquet at MnMcount.scala:69) (first 15 tasks are for partitions Vector(0))
+[2024-02-02T16:17:54.376+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO TaskSchedulerImpl: Adding task set 15.0 with 1 tasks resource profile 0
+[2024-02-02T16:17:54.379+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO TaskSetManager: Starting task 0.0 in stage 15.0 (TID 9) (10.0.2.15, executor driver, partition 0, ANY, 4943 bytes) taskResourceAssignments Map()
+[2024-02-02T16:17:54.383+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO Executor: Running task 0.0 in stage 15.0 (TID 9)
+[2024-02-02T16:17:54.397+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO FileScanRDD: Reading File path: hdfs://localhost:9000/user/project/datalake/raw/2024-02-02/tmdb_popular_movies.json, range: 0-6658902, partition values: [empty row]
+[2024-02-02T16:17:54.867+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO Executor: Finished task 0.0 in stage 15.0 (TID 9). 2038 bytes result sent to driver
+[2024-02-02T16:17:54.871+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO TaskSetManager: Finished task 0.0 in stage 15.0 (TID 9) in 493 ms on 10.0.2.15 (executor driver) (1/1)
+[2024-02-02T16:17:54.872+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO TaskSchedulerImpl: Removed TaskSet 15.0, whose tasks have all completed, from pool
+[2024-02-02T16:17:54.875+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO DAGScheduler: ShuffleMapStage 15 (parquet at MnMcount.scala:69) finished in 0.518 s
+[2024-02-02T16:17:54.875+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO DAGScheduler: looking for newly runnable stages
+[2024-02-02T16:17:54.876+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO DAGScheduler: running: Set()
+[2024-02-02T16:17:54.877+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO DAGScheduler: waiting: Set()
+[2024-02-02T16:17:54.877+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO DAGScheduler: failed: Set()
+[2024-02-02T16:17:54.892+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO ShufflePartitionsUtil: For shuffle(4), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2024-02-02T16:17:54.985+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:54 INFO CodeGenerator: Code generated in 32.80202 ms
+[2024-02-02T16:17:55.072+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO SparkContext: Starting job: parquet at MnMcount.scala:69
+[2024-02-02T16:17:55.074+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO DAGScheduler: Got job 10 (parquet at MnMcount.scala:69) with 1 output partitions
+[2024-02-02T16:17:55.075+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO DAGScheduler: Final stage: ResultStage 17 (parquet at MnMcount.scala:69)
+[2024-02-02T16:17:55.084+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 16)
+[2024-02-02T16:17:55.085+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO DAGScheduler: Missing parents: List()
+[2024-02-02T16:17:55.085+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO DAGScheduler: Submitting ResultStage 17 (MapPartitionsRDD[39] at parquet at MnMcount.scala:69), which has no missing parents
+[2024-02-02T16:17:55.141+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO MemoryStore: Block broadcast_15 stored as values in memory (estimated size 238.0 KiB, free 433.5 MiB)
+[2024-02-02T16:17:55.181+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO BlockManagerInfo: Removed broadcast_14_piece0 on 10.0.2.15:43417 in memory (size: 9.1 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:55.182+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO MemoryStore: Block broadcast_15_piece0 stored as bytes in memory (estimated size 88.3 KiB, free 433.4 MiB)
+[2024-02-02T16:17:55.182+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO BlockManagerInfo: Added broadcast_15_piece0 in memory on 10.0.2.15:43417 (size: 88.3 KiB, free: 434.2 MiB)
+[2024-02-02T16:17:55.183+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO SparkContext: Created broadcast 15 from broadcast at DAGScheduler.scala:1509
+[2024-02-02T16:17:55.191+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 17 (MapPartitionsRDD[39] at parquet at MnMcount.scala:69) (first 15 tasks are for partitions Vector(0))
+[2024-02-02T16:17:55.192+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO TaskSchedulerImpl: Adding task set 17.0 with 1 tasks resource profile 0
+[2024-02-02T16:17:55.202+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO TaskSetManager: Starting task 0.0 in stage 17.0 (TID 10) (10.0.2.15, executor driver, partition 0, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+[2024-02-02T16:17:55.203+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO Executor: Running task 0.0 in stage 17.0 (TID 10)
+[2024-02-02T16:17:55.263+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO ShuffleBlockFetcherIterator: Getting 1 (136.2 KiB) non-empty blocks including 1 (136.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2024-02-02T16:17:55.265+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+[2024-02-02T16:17:55.276+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO BlockManagerInfo: Removed broadcast_10_piece0 on 10.0.2.15:43417 in memory (size: 34.1 KiB, free: 434.2 MiB)
+[2024-02-02T16:17:55.336+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2024-02-02T16:17:55.337+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2024-02-02T16:17:55.337+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[2024-02-02T16:17:55.337+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2024-02-02T16:17:55.338+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2024-02-02T16:17:55.338+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[2024-02-02T16:17:55.338+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO CodecConfig: Compression: SNAPPY
+[2024-02-02T16:17:55.338+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO CodecConfig: Compression: SNAPPY
+[2024-02-02T16:17:55.340+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO ParquetOutputFormat: Parquet block size to 134217728
+[2024-02-02T16:17:55.340+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO ParquetOutputFormat: Validation is off
+[2024-02-02T16:17:55.341+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO ParquetOutputFormat: Maximum row group padding size is 8388608 bytes
+[2024-02-02T16:17:55.341+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO ParquetOutputFormat: Parquet properties are:
+[2024-02-02T16:17:55.342+0100] {spark_submit.py:571} INFO - Parquet page size to 1048576
+[2024-02-02T16:17:55.342+0100] {spark_submit.py:571} INFO - Parquet dictionary page size to 1048576
+[2024-02-02T16:17:55.342+0100] {spark_submit.py:571} INFO - Dictionary is true
+[2024-02-02T16:17:55.343+0100] {spark_submit.py:571} INFO - Writer version is: PARQUET_1_0
+[2024-02-02T16:17:55.343+0100] {spark_submit.py:571} INFO - Page size checking is: estimated
+[2024-02-02T16:17:55.343+0100] {spark_submit.py:571} INFO - Min row count for page size check is: 100
+[2024-02-02T16:17:55.344+0100] {spark_submit.py:571} INFO - Max row count for page size check is: 10000
+[2024-02-02T16:17:55.344+0100] {spark_submit.py:571} INFO - Truncate length for column indexes is: 64
+[2024-02-02T16:17:55.344+0100] {spark_submit.py:571} INFO - Truncate length for statistics min/max  is: 2147483647
+[2024-02-02T16:17:55.344+0100] {spark_submit.py:571} INFO - Bloom filter enabled: false
+[2024-02-02T16:17:55.345+0100] {spark_submit.py:571} INFO - Max Bloom filter size for a column is 1048576
+[2024-02-02T16:17:55.347+0100] {spark_submit.py:571} INFO - Bloom filter expected number of distinct values are: null
+[2024-02-02T16:17:55.347+0100] {spark_submit.py:571} INFO - Page row count limit to 20000
+[2024-02-02T16:17:55.347+0100] {spark_submit.py:571} INFO - Writing page checksums is: on
+[2024-02-02T16:17:55.404+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO ParquetWriteSupport: Initialized Parquet WriteSupport with Catalyst schema:
+[2024-02-02T16:17:55.406+0100] {spark_submit.py:571} INFO - {
+[2024-02-02T16:17:55.406+0100] {spark_submit.py:571} INFO - "type" : "struct",
+[2024-02-02T16:17:55.407+0100] {spark_submit.py:571} INFO - "fields" : [ {
+[2024-02-02T16:17:55.408+0100] {spark_submit.py:571} INFO - "name" : "year",
+[2024-02-02T16:17:55.409+0100] {spark_submit.py:571} INFO - "type" : "integer",
+[2024-02-02T16:17:55.410+0100] {spark_submit.py:571} INFO - "nullable" : true,
+[2024-02-02T16:17:55.410+0100] {spark_submit.py:571} INFO - "metadata" : { }
+[2024-02-02T16:17:55.411+0100] {spark_submit.py:571} INFO - }, {
+[2024-02-02T16:17:55.412+0100] {spark_submit.py:571} INFO - "name" : "original_language",
+[2024-02-02T16:17:55.412+0100] {spark_submit.py:571} INFO - "type" : "string",
+[2024-02-02T16:17:55.412+0100] {spark_submit.py:571} INFO - "nullable" : true,
+[2024-02-02T16:17:55.413+0100] {spark_submit.py:571} INFO - "metadata" : { }
+[2024-02-02T16:17:55.413+0100] {spark_submit.py:571} INFO - }, {
+[2024-02-02T16:17:55.413+0100] {spark_submit.py:571} INFO - "name" : "vote_count",
+[2024-02-02T16:17:55.414+0100] {spark_submit.py:571} INFO - "type" : "long",
+[2024-02-02T16:17:55.414+0100] {spark_submit.py:571} INFO - "nullable" : true,
+[2024-02-02T16:17:55.414+0100] {spark_submit.py:571} INFO - "metadata" : { }
+[2024-02-02T16:17:55.415+0100] {spark_submit.py:571} INFO - }, {
+[2024-02-02T16:17:55.415+0100] {spark_submit.py:571} INFO - "name" : "popularity",
+[2024-02-02T16:17:55.416+0100] {spark_submit.py:571} INFO - "type" : "double",
+[2024-02-02T16:17:55.418+0100] {spark_submit.py:571} INFO - "nullable" : true,
+[2024-02-02T16:17:55.418+0100] {spark_submit.py:571} INFO - "metadata" : { }
+[2024-02-02T16:17:55.418+0100] {spark_submit.py:571} INFO - } ]
+[2024-02-02T16:17:55.418+0100] {spark_submit.py:571} INFO - }
+[2024-02-02T16:17:55.419+0100] {spark_submit.py:571} INFO - and corresponding Parquet message type:
+[2024-02-02T16:17:55.419+0100] {spark_submit.py:571} INFO - message spark_schema {
+[2024-02-02T16:17:55.419+0100] {spark_submit.py:571} INFO - optional int32 year;
+[2024-02-02T16:17:55.419+0100] {spark_submit.py:571} INFO - optional binary original_language (STRING);
+[2024-02-02T16:17:55.420+0100] {spark_submit.py:571} INFO - optional int64 vote_count;
+[2024-02-02T16:17:55.420+0100] {spark_submit.py:571} INFO - optional double popularity;
+[2024-02-02T16:17:55.420+0100] {spark_submit.py:571} INFO - }
+[2024-02-02T16:17:55.420+0100] {spark_submit.py:571} INFO - 
+[2024-02-02T16:17:55.420+0100] {spark_submit.py:571} INFO - 
+[2024-02-02T16:17:55.456+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 10.0.2.15:43417 in memory (size: 34.1 KiB, free: 434.3 MiB)
+[2024-02-02T16:17:55.814+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO FileOutputCommitter: Saved output of task 'attempt_202402021617554681337649813935503_0017_m_000000_10' to hdfs://localhost:9000/user/project/datalake/usage/2024-02-02/movies_language/movies_language.parquet/_temporary/0/task_202402021617554681337649813935503_0017_m_000000
+[2024-02-02T16:17:55.816+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO SparkHadoopMapRedUtil: attempt_202402021617554681337649813935503_0017_m_000000_10: Committed. Elapsed time: 20 ms.
+[2024-02-02T16:17:55.821+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO Executor: Finished task 0.0 in stage 17.0 (TID 10). 4385 bytes result sent to driver
+[2024-02-02T16:17:55.825+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO TaskSetManager: Finished task 0.0 in stage 17.0 (TID 10) in 629 ms on 10.0.2.15 (executor driver) (1/1)
+[2024-02-02T16:17:55.830+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO TaskSchedulerImpl: Removed TaskSet 17.0, whose tasks have all completed, from pool
+[2024-02-02T16:17:55.831+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO DAGScheduler: ResultStage 17 (parquet at MnMcount.scala:69) finished in 0.740 s
+[2024-02-02T16:17:55.833+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO DAGScheduler: Job 10 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-02-02T16:17:55.834+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO TaskSchedulerImpl: Killing all running tasks in stage 17: Stage finished
+[2024-02-02T16:17:55.853+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO DAGScheduler: Job 10 finished: parquet at MnMcount.scala:69, took 0.768803 s
+[2024-02-02T16:17:55.854+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO FileFormatWriter: Start to commit write Job daea0122-7e57-455e-a4d2-b74b52b3b17f.
+[2024-02-02T16:17:55.989+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO FileFormatWriter: Write Job daea0122-7e57-455e-a4d2-b74b52b3b17f committed. Elapsed time: 146 ms.
+[2024-02-02T16:17:55.992+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:55 INFO FileFormatWriter: Finished processing stats for write job daea0122-7e57-455e-a4d2-b74b52b3b17f.
+[2024-02-02T16:17:56.079+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:56 INFO SparkContext: Invoking stop() from shutdown hook
+[2024-02-02T16:17:56.171+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:56 INFO SparkUI: Stopped Spark web UI at http://10.0.2.15:4040
+[2024-02-02T16:17:56.333+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:56 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2024-02-02T16:17:56.456+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:56 INFO MemoryStore: MemoryStore cleared
+[2024-02-02T16:17:56.458+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:56 INFO BlockManager: BlockManager stopped
+[2024-02-02T16:17:56.496+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:56 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2024-02-02T16:17:56.527+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:56 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2024-02-02T16:17:56.695+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:56 INFO SparkContext: Successfully stopped SparkContext
+[2024-02-02T16:17:56.696+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:56 INFO ShutdownHookManager: Shutdown hook called
+[2024-02-02T16:17:56.699+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:56 INFO ShutdownHookManager: Deleting directory /tmp/spark-d5edca84-a486-4cc9-9f49-ac18014e7f3e
+[2024-02-02T16:17:56.712+0100] {spark_submit.py:571} INFO - 24/02/02 16:17:56 INFO ShutdownHookManager: Deleting directory /tmp/spark-479ab5da-fb46-43a4-979e-38c96e94e595
+[2024-02-02T16:17:57.050+0100] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jeniferhdfs, task_id=submit_spark_job, execution_date=20240202T151222, start_date=20240202T151611, end_date=20240202T151757
+[2024-02-02T16:17:57.176+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-02T16:17:57.204+0100] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

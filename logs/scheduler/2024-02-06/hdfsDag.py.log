@@ -1,0 +1,777 @@
+[2024-02-06T12:36:42.565+0100] {processor.py:161} INFO - Started process (PID=16172) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:36:42.566+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:36:42.568+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:36:42.568+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:36:42.599+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:36:42.655+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:36:42.655+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:36:42.683+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:36:42.683+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:36:42.713+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.154 seconds
+[2024-02-06T12:37:39.544+0100] {processor.py:161} INFO - Started process (PID=16345) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:37:39.547+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:37:39.549+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:37:39.548+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:37:39.566+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:37:39.586+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:37:39.586+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:37:39.612+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:37:39.611+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:37:39.647+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.108 seconds
+[2024-02-06T12:38:34.856+0100] {processor.py:161} INFO - Started process (PID=16549) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:38:34.859+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:38:34.860+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:38:34.859+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:38:34.876+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:38:34.899+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:38:34.898+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:38:34.924+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:38:34.924+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:38:34.958+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.108 seconds
+[2024-02-06T12:39:22.236+0100] {processor.py:161} INFO - Started process (PID=16645) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:39:22.238+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:39:22.240+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:39:22.239+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:39:22.256+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:39:22.280+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:39:22.280+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:39:22.306+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:39:22.306+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:39:22.340+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.108 seconds
+[2024-02-06T12:40:04.935+0100] {processor.py:161} INFO - Started process (PID=16752) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:40:04.937+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:40:04.939+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:40:04.938+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:40:04.955+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:40:04.977+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:40:04.976+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:40:04.999+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:40:04.999+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:40:05.036+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.106 seconds
+[2024-02-06T12:40:50.032+0100] {processor.py:161} INFO - Started process (PID=16935) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:40:50.034+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:40:50.035+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:40:50.035+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:40:50.052+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:40:50.073+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:40:50.072+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:40:50.106+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:40:50.106+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:40:50.157+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.130 seconds
+[2024-02-06T12:41:38.032+0100] {processor.py:161} INFO - Started process (PID=17047) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:41:38.035+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:41:38.036+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:41:38.036+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:41:38.053+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:41:38.076+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:41:38.076+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:41:38.105+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:41:38.105+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:41:38.150+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.123 seconds
+[2024-02-06T12:42:25.029+0100] {processor.py:161} INFO - Started process (PID=17153) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:42:25.032+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:42:25.033+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:42:25.032+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:42:25.051+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:42:25.071+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:42:25.071+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:42:25.095+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:42:25.095+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:42:25.132+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.107 seconds
+[2024-02-06T12:43:14.646+0100] {processor.py:161} INFO - Started process (PID=17286) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:43:14.654+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:43:14.656+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:43:14.655+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:43:14.670+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:43:14.693+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:43:14.693+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:43:14.714+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:43:14.714+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:43:14.755+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.114 seconds
+[2024-02-06T12:44:11.522+0100] {processor.py:161} INFO - Started process (PID=17417) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:44:11.524+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:44:11.527+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:44:11.526+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:44:11.547+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:44:11.572+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:44:11.572+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:44:11.611+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:44:11.610+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:44:11.693+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.179 seconds
+[2024-02-06T12:45:08.483+0100] {processor.py:161} INFO - Started process (PID=17527) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:45:08.485+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:45:08.486+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:45:08.485+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:45:08.509+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:45:08.543+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:45:08.542+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:45:08.574+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:45:08.574+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:45:08.619+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.146 seconds
+[2024-02-06T12:46:07.958+0100] {processor.py:161} INFO - Started process (PID=17751) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:46:07.961+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:46:07.963+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:46:07.962+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:46:07.995+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:46:08.022+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:46:08.022+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:46:08.045+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:46:08.045+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:46:08.088+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.135 seconds
+[2024-02-06T12:46:58.612+0100] {processor.py:161} INFO - Started process (PID=17871) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:46:58.617+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:46:58.619+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:46:58.618+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:46:58.636+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:46:58.656+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:46:58.656+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:46:58.681+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:46:58.680+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:46:58.716+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.108 seconds
+[2024-02-06T12:47:47.373+0100] {processor.py:161} INFO - Started process (PID=17984) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:47:47.377+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:47:47.380+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:47:47.379+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:47:47.397+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:47:47.418+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:47:47.417+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:47:47.438+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:47:47.438+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:47:47.471+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.102 seconds
+[2024-02-06T12:48:36.856+0100] {processor.py:161} INFO - Started process (PID=18101) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:48:36.858+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:48:36.859+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:48:36.859+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:48:36.875+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:48:36.895+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:48:36.895+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:48:36.922+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:48:36.921+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:48:36.961+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.110 seconds
+[2024-02-06T12:49:20.579+0100] {processor.py:161} INFO - Started process (PID=18200) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:49:20.584+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:49:20.586+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:49:20.585+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:49:20.604+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:49:20.629+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:49:20.628+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:49:20.656+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:49:20.656+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:49:20.696+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.123 seconds
+[2024-02-06T12:50:05.130+0100] {processor.py:161} INFO - Started process (PID=18306) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:50:05.133+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:50:05.134+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:50:05.134+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:50:05.154+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:50:05.175+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:50:05.175+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:50:05.201+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:50:05.200+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:50:05.238+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.113 seconds
+[2024-02-06T12:50:56.655+0100] {processor.py:161} INFO - Started process (PID=18455) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:50:56.658+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:50:56.660+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:50:56.659+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:50:56.677+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:50:56.696+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:50:56.696+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:50:56.719+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:50:56.718+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:50:56.753+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.102 seconds
+[2024-02-06T12:51:44.021+0100] {processor.py:161} INFO - Started process (PID=18563) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:51:44.023+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:51:44.024+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:51:44.024+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:51:44.040+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:51:44.081+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:51:44.081+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:51:44.109+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:51:44.109+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:51:44.155+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.140 seconds
+[2024-02-06T12:52:36.503+0100] {processor.py:161} INFO - Started process (PID=18674) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:52:36.507+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:52:36.509+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:52:36.508+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:52:36.532+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:52:36.565+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:52:36.565+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:52:36.596+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:52:36.596+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:52:36.636+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.140 seconds
+[2024-02-06T12:53:36.181+0100] {processor.py:161} INFO - Started process (PID=18897) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:53:36.184+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:53:36.187+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:53:36.186+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:53:36.215+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:53:36.236+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:53:36.236+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:53:36.262+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:53:36.261+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:53:36.422+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.248 seconds
+[2024-02-06T12:54:31.569+0100] {processor.py:161} INFO - Started process (PID=19019) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:54:31.574+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:54:31.576+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:54:31.575+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:54:31.591+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:54:31.607+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:54:31.607+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:54:31.633+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:54:31.633+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:54:31.668+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.103 seconds
+[2024-02-06T12:55:22.175+0100] {processor.py:161} INFO - Started process (PID=19132) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:55:22.179+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:55:22.181+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:55:22.181+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:55:22.203+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:55:22.334+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:55:22.333+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:55:22.367+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:55:22.367+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:55:22.410+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.240 seconds
+[2024-02-06T12:56:12.398+0100] {processor.py:161} INFO - Started process (PID=19255) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:56:12.403+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:56:12.404+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:56:12.404+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:56:12.421+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:56:12.440+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:56:12.440+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:56:12.463+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:56:12.463+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:56:12.496+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.103 seconds
+[2024-02-06T12:57:02.973+0100] {processor.py:161} INFO - Started process (PID=19374) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:57:02.975+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:57:02.977+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:57:02.976+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:57:02.994+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:57:03.148+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:57:03.148+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:57:03.168+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:57:03.168+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:57:03.200+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.232 seconds
+[2024-02-06T12:57:58.655+0100] {processor.py:161} INFO - Started process (PID=19511) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:57:58.660+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:57:58.662+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:57:58.661+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:57:58.679+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:57:58.700+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:57:58.700+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:57:58.722+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:57:58.722+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:57:58.760+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.109 seconds
+[2024-02-06T12:58:46.508+0100] {processor.py:161} INFO - Started process (PID=19614) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:58:46.511+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:58:46.512+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:58:46.512+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:58:46.526+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:58:46.546+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:58:46.546+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:58:46.565+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:58:46.565+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:58:46.606+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.102 seconds
+[2024-02-06T12:59:31.496+0100] {processor.py:161} INFO - Started process (PID=19798) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:59:31.520+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T12:59:31.528+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:59:31.526+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:59:31.561+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T12:59:31.591+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:59:31.590+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T12:59:31.616+0100] {logging_mixin.py:188} INFO - [2024-02-06T12:59:31.616+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T12:59:31.668+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.186 seconds
+[2024-02-06T13:00:01.771+0100] {processor.py:161} INFO - Started process (PID=19897) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:00:01.776+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:00:01.779+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:00:01.778+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:00:01.800+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:00:01.820+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:00:01.820+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:00:01.843+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:00:01.843+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:00:01.878+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.113 seconds
+[2024-02-06T13:00:32.059+0100] {processor.py:161} INFO - Started process (PID=19994) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:00:32.064+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:00:32.067+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:00:32.065+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:00:32.088+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:00:32.119+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:00:32.119+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:00:32.208+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:00:32.208+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:00:32.323+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.272 seconds
+[2024-02-06T13:01:27.204+0100] {processor.py:161} INFO - Started process (PID=20171) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:01:27.210+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:01:27.212+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:01:27.211+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:01:27.250+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:01:27.285+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:01:27.284+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:01:27.329+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:01:27.329+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:01:27.370+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.171 seconds
+[2024-02-06T13:02:22.372+0100] {processor.py:161} INFO - Started process (PID=20333) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:02:22.375+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:02:22.377+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:02:22.376+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:02:22.398+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:02:22.416+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:02:22.416+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:02:22.457+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:02:22.457+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:02:22.518+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.155 seconds
+[2024-02-06T13:02:52.660+0100] {processor.py:161} INFO - Started process (PID=20430) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:02:52.662+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:02:52.664+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:02:52.663+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:02:52.681+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:02:52.704+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:02:52.704+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:02:52.763+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:02:52.762+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:02:52.806+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.150 seconds
+[2024-02-06T13:03:48.934+0100] {processor.py:161} INFO - Started process (PID=20596) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:03:48.939+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:03:48.942+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:03:48.941+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:03:48.958+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:03:48.980+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:03:48.979+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:03:49.004+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:03:49.004+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:03:49.043+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.114 seconds
+[2024-02-06T13:04:37.981+0100] {processor.py:161} INFO - Started process (PID=20741) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:04:37.985+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:04:37.986+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:04:37.986+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:04:38.005+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:04:38.025+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:04:38.024+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:04:38.050+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:04:38.049+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:04:38.083+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.106 seconds
+[2024-02-06T13:05:24.048+0100] {processor.py:161} INFO - Started process (PID=20872) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:05:24.050+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:05:24.052+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:05:24.051+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:05:24.069+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:05:24.088+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:05:24.087+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:05:24.111+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:05:24.110+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:05:24.144+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.101 seconds
+[2024-02-06T13:06:12.304+0100] {processor.py:161} INFO - Started process (PID=21013) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:06:12.308+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:06:12.310+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:06:12.309+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:06:12.327+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:06:12.346+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:06:12.345+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:06:12.369+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:06:12.369+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:06:12.404+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.104 seconds
+[2024-02-06T13:07:02.046+0100] {processor.py:161} INFO - Started process (PID=21158) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:07:02.057+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:07:02.059+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:07:02.058+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:07:02.088+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:07:02.149+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:07:02.149+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:07:02.187+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:07:02.187+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:07:02.237+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.200 seconds
+[2024-02-06T13:07:49.204+0100] {processor.py:161} INFO - Started process (PID=21290) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:07:49.211+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:07:49.212+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:07:49.212+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:07:49.241+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:07:49.272+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:07:49.272+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:07:49.298+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:07:49.298+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:07:49.377+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.185 seconds
+[2024-02-06T13:08:38.496+0100] {processor.py:161} INFO - Started process (PID=21442) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:08:38.498+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:08:38.500+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:08:38.499+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:08:38.517+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:08:38.539+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:08:38.538+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:08:38.563+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:08:38.563+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:08:38.602+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.112 seconds
+[2024-02-06T13:09:27.169+0100] {processor.py:161} INFO - Started process (PID=21585) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:09:27.175+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:09:27.176+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:09:27.175+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:09:27.196+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:09:27.218+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:09:27.218+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:09:27.245+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:09:27.245+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:09:27.287+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.123 seconds
+[2024-02-06T13:10:14.723+0100] {processor.py:161} INFO - Started process (PID=21731) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:10:14.727+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:10:14.729+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:10:14.728+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:10:14.748+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:10:14.769+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:10:14.769+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:10:14.796+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:10:14.796+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:10:14.834+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.116 seconds
+[2024-02-06T13:10:57.983+0100] {processor.py:161} INFO - Started process (PID=21875) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:10:57.987+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:10:57.989+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:10:57.988+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:10:58.005+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:10:58.024+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:10:58.024+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:10:58.047+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:10:58.047+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:10:58.081+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.107 seconds
+[2024-02-06T13:11:38.523+0100] {processor.py:161} INFO - Started process (PID=22000) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:11:38.526+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:11:38.527+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:11:38.527+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:11:38.544+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:11:38.566+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:11:38.566+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:11:38.589+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:11:38.589+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:11:38.626+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.108 seconds
+[2024-02-06T13:12:27.518+0100] {processor.py:161} INFO - Started process (PID=22140) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:12:27.523+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:12:27.524+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:12:27.524+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:12:27.544+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:12:27.563+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:12:27.563+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:12:27.583+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:12:27.583+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:12:27.634+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.121 seconds
+[2024-02-06T13:13:17.685+0100] {processor.py:161} INFO - Started process (PID=22298) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:13:17.687+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:13:17.688+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:13:17.688+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:13:17.705+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:13:17.727+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:13:17.727+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:13:17.751+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:13:17.751+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:13:17.785+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.105 seconds
+[2024-02-06T13:14:08.226+0100] {processor.py:161} INFO - Started process (PID=22468) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:14:08.228+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:14:08.231+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:14:08.230+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:14:08.250+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:14:08.272+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:14:08.272+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:14:08.296+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:14:08.295+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:14:08.331+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.110 seconds
+[2024-02-06T13:14:59.543+0100] {processor.py:161} INFO - Started process (PID=22615) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:14:59.545+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:14:59.547+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:14:59.546+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:14:59.565+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:14:59.585+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:14:59.584+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:14:59.608+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:14:59.607+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:14:59.643+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.105 seconds
+[2024-02-06T13:15:53.427+0100] {processor.py:161} INFO - Started process (PID=22767) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:15:53.431+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:15:53.433+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:15:53.432+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:15:53.453+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:15:53.477+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:15:53.477+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:15:53.507+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:15:53.507+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:15:53.543+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.121 seconds
+[2024-02-06T13:16:42.122+0100] {processor.py:161} INFO - Started process (PID=22911) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:16:42.127+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:16:42.128+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:16:42.128+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:16:42.142+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:16:42.160+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:16:42.160+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:16:42.181+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:16:42.181+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:16:42.222+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.104 seconds
+[2024-02-06T13:17:31.129+0100] {processor.py:161} INFO - Started process (PID=23058) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:17:31.133+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:17:31.135+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:17:31.135+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:17:31.152+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:17:31.172+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:17:31.172+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:17:31.195+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:17:31.195+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:17:31.231+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.106 seconds
+[2024-02-06T13:18:21.863+0100] {processor.py:161} INFO - Started process (PID=23213) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:18:21.868+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:18:21.869+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:18:21.869+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:18:21.888+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:18:21.910+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:18:21.910+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:18:21.934+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:18:21.933+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:18:21.972+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.114 seconds
+[2024-02-06T13:19:11.749+0100] {processor.py:161} INFO - Started process (PID=23373) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:19:11.751+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:19:11.756+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:19:11.753+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:19:11.782+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:19:11.810+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:19:11.810+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:19:11.843+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:19:11.843+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:19:11.895+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.155 seconds
+[2024-02-06T13:19:55.679+0100] {processor.py:161} INFO - Started process (PID=23488) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:19:55.681+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:19:55.683+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:19:55.682+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:19:55.700+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:19:55.719+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:19:55.719+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:19:55.742+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:19:55.741+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:19:55.773+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.098 seconds
+[2024-02-06T13:20:44.249+0100] {processor.py:161} INFO - Started process (PID=23628) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:20:44.251+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:20:44.252+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:20:44.252+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:20:44.269+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:20:44.289+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:20:44.288+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:20:44.312+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:20:44.312+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:20:44.351+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.107 seconds
+[2024-02-06T13:21:31.518+0100] {processor.py:161} INFO - Started process (PID=23790) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:21:31.520+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:21:31.523+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:21:31.522+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:21:31.541+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:21:31.561+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:21:31.561+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:21:31.584+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:21:31.584+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:21:31.617+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.104 seconds
+[2024-02-06T13:22:19.676+0100] {processor.py:161} INFO - Started process (PID=23934) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:22:19.679+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:22:19.680+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:22:19.680+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:22:19.701+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:22:19.720+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:22:19.720+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:22:19.741+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:22:19.741+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:22:19.777+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.106 seconds
+[2024-02-06T13:23:07.403+0100] {processor.py:161} INFO - Started process (PID=24072) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:23:07.408+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:23:07.409+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:23:07.409+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:23:07.434+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:23:07.461+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:23:07.460+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:23:07.489+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:23:07.489+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:23:07.524+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.126 seconds
+[2024-02-06T13:24:01.305+0100] {processor.py:161} INFO - Started process (PID=24233) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:24:01.308+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:24:01.310+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:24:01.310+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:24:01.325+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:24:01.344+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:24:01.344+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:24:01.369+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:24:01.368+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:24:01.404+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.103 seconds
+[2024-02-06T13:24:51.784+0100] {processor.py:161} INFO - Started process (PID=24379) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:24:51.787+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:24:51.788+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:24:51.787+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:24:51.805+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:24:51.824+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:24:51.824+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:24:51.852+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:24:51.852+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:24:51.886+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.107 seconds
+[2024-02-06T13:25:40.514+0100] {processor.py:161} INFO - Started process (PID=24522) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:25:40.518+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:25:40.520+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:25:40.519+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:25:40.542+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:25:40.577+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:25:40.577+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:25:40.603+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:25:40.603+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:25:40.710+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.204 seconds
+[2024-02-06T13:26:29.533+0100] {processor.py:161} INFO - Started process (PID=24667) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:26:29.536+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:26:29.539+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:26:29.538+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:26:29.558+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:26:29.581+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:26:29.581+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:26:29.606+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:26:29.605+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:26:29.642+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.113 seconds
+[2024-02-06T13:27:20.458+0100] {processor.py:161} INFO - Started process (PID=24818) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:27:20.460+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:27:20.462+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:27:20.461+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:27:20.478+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:27:20.497+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:27:20.497+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:27:20.519+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:27:20.518+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:27:20.558+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.105 seconds
+[2024-02-06T13:28:09.127+0100] {processor.py:161} INFO - Started process (PID=24974) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:28:09.131+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:28:09.133+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:28:09.132+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:28:09.151+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:28:09.170+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:28:09.169+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:28:09.194+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:28:09.194+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:28:09.232+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.109 seconds
+[2024-02-06T13:28:53.401+0100] {processor.py:161} INFO - Started process (PID=25099) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:28:53.403+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:28:53.405+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:28:53.404+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:28:53.423+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:28:53.445+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:28:53.444+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:28:53.469+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:28:53.469+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:28:53.502+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.105 seconds
+[2024-02-06T13:29:39.411+0100] {processor.py:161} INFO - Started process (PID=25229) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:29:39.414+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:29:39.415+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:29:39.414+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:29:39.433+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:29:39.453+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:29:39.452+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:29:39.475+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:29:39.475+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:29:39.508+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.101 seconds
+[2024-02-06T13:30:27.889+0100] {processor.py:161} INFO - Started process (PID=25370) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:30:27.893+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:30:27.898+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:30:27.896+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:30:27.924+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:30:27.972+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:30:27.971+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:30:28.020+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:30:28.020+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:30:28.069+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.191 seconds
+[2024-02-06T13:31:21.601+0100] {processor.py:161} INFO - Started process (PID=25523) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:31:21.603+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:31:21.606+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:31:21.605+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:31:21.639+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:31:21.664+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:31:21.663+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:31:21.696+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:31:21.696+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:31:21.739+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.143 seconds
+[2024-02-06T13:31:52.181+0100] {processor.py:161} INFO - Started process (PID=25602) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:31:52.184+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:31:52.186+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:31:52.185+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:31:52.201+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:31:52.218+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:31:52.218+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:31:52.239+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:31:52.239+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:31:52.274+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.097 seconds
+[2024-02-06T13:32:39.024+0100] {processor.py:161} INFO - Started process (PID=25747) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:32:39.027+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:32:39.028+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:32:39.027+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:32:39.044+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:32:39.065+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:32:39.064+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:32:39.090+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:32:39.090+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:32:39.125+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.107 seconds
+[2024-02-06T13:33:24.427+0100] {processor.py:161} INFO - Started process (PID=26565) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:33:24.431+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:33:24.434+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:33:24.433+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:33:24.461+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:33:24.496+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:33:24.496+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:33:24.537+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:33:24.537+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:33:24.580+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.159 seconds
+[2024-02-06T13:34:13.167+0100] {processor.py:161} INFO - Started process (PID=26698) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:34:13.172+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:34:13.175+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:34:13.173+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:34:13.196+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:34:13.221+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:34:13.221+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:34:13.249+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:34:13.249+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:34:13.289+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.126 seconds
+[2024-02-06T13:34:59.420+0100] {processor.py:161} INFO - Started process (PID=26825) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:34:59.422+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:34:59.425+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:34:59.424+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:34:59.444+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:34:59.473+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:34:59.473+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:34:59.509+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:34:59.508+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:34:59.542+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.127 seconds
+[2024-02-06T13:35:47.339+0100] {processor.py:161} INFO - Started process (PID=26970) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:35:47.344+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:35:47.346+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:35:47.345+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:35:47.367+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:35:47.392+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:35:47.392+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:35:47.427+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:35:47.426+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:35:47.469+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.135 seconds
+[2024-02-06T13:36:40.165+0100] {processor.py:161} INFO - Started process (PID=27174) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:36:40.167+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:36:40.169+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:36:40.169+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:36:40.195+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:36:40.215+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:36:40.215+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:36:40.238+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:36:40.238+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:36:40.271+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.112 seconds
+[2024-02-06T13:37:29.270+0100] {processor.py:161} INFO - Started process (PID=27283) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:37:29.272+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:37:29.274+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:37:29.273+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:37:29.299+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:37:29.328+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:37:29.328+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:37:29.381+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:37:29.380+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:37:29.433+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.168 seconds
+[2024-02-06T13:38:22.377+0100] {processor.py:161} INFO - Started process (PID=27401) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:38:22.379+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:38:22.381+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:38:22.381+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:38:22.399+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:38:22.422+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:38:22.422+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:38:22.451+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:38:22.451+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:38:22.489+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.117 seconds
+[2024-02-06T13:39:13.298+0100] {processor.py:161} INFO - Started process (PID=27509) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:39:13.300+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:39:13.302+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:39:13.301+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:39:13.318+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:39:13.339+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:39:13.339+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:39:13.363+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:39:13.363+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:39:13.405+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.111 seconds
+[2024-02-06T13:40:08.190+0100] {processor.py:161} INFO - Started process (PID=27724) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:40:08.193+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:40:08.194+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:40:08.194+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:40:08.212+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:40:08.233+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:40:08.233+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:40:08.258+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:40:08.258+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:40:08.298+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.113 seconds
+[2024-02-06T13:40:57.687+0100] {processor.py:161} INFO - Started process (PID=27882) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:40:57.697+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:40:57.700+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:40:57.699+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:40:57.714+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:40:57.747+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:40:57.746+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:40:57.770+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:40:57.770+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:40:57.825+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.152 seconds
+[2024-02-06T13:41:51.323+0100] {processor.py:161} INFO - Started process (PID=28025) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:41:51.329+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:41:51.332+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:41:51.330+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:41:51.348+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:41:51.369+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:41:51.368+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:41:51.388+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:41:51.388+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:41:51.422+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.104 seconds
+[2024-02-06T13:42:44.594+0100] {processor.py:161} INFO - Started process (PID=28179) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:42:44.605+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:42:44.608+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:42:44.607+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:42:44.630+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:42:44.686+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:42:44.686+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:42:44.769+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:42:44.769+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:42:44.848+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.276 seconds
+[2024-02-06T13:43:20.749+0100] {processor.py:161} INFO - Started process (PID=28372) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:43:20.752+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:43:20.756+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:43:20.755+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:43:20.800+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:43:20.848+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:43:20.848+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:43:20.902+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:43:20.902+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:43:20.974+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.230 seconds
+[2024-02-06T13:43:58.401+0100] {processor.py:161} INFO - Started process (PID=28494) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:43:58.406+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:43:58.408+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:43:58.407+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:43:58.426+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:43:58.448+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:43:58.447+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:43:58.472+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:43:58.472+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:43:58.505+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.110 seconds
+[2024-02-06T13:44:34.465+0100] {processor.py:161} INFO - Started process (PID=29021) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:44:34.468+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:44:34.470+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:44:34.469+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:44:34.523+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:44:34.585+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:44:34.584+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:44:34.650+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:44:34.650+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:44:34.979+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.527 seconds
+[2024-02-06T13:45:07.009+0100] {processor.py:161} INFO - Started process (PID=29201) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:45:07.014+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:45:07.016+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:45:07.016+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:45:07.034+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:45:07.052+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:45:07.052+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:45:07.087+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:45:07.087+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:45:07.135+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.134 seconds
+[2024-02-06T13:45:56.050+0100] {processor.py:161} INFO - Started process (PID=29318) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:45:56.052+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:45:56.053+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:45:56.053+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:45:56.070+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:45:56.097+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:45:56.096+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:45:56.134+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:45:56.133+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:45:56.169+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.128 seconds
+[2024-02-06T13:46:47.331+0100] {processor.py:161} INFO - Started process (PID=29433) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:46:47.333+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:46:47.334+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:46:47.334+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:46:47.355+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:46:47.376+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:46:47.376+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:46:47.399+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:46:47.399+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:46:47.435+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.111 seconds
+[2024-02-06T13:47:39.170+0100] {processor.py:161} INFO - Started process (PID=29550) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:47:39.173+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:47:39.175+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:47:39.174+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:47:39.199+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:47:39.220+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:47:39.220+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:47:39.246+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:47:39.246+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:47:39.282+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.116 seconds
+[2024-02-06T13:48:32.258+0100] {processor.py:161} INFO - Started process (PID=29663) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:48:32.261+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:48:32.263+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:48:32.262+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:48:32.280+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:48:32.307+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:48:32.307+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:48:32.332+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:48:32.332+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:48:32.372+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.119 seconds
+[2024-02-06T13:49:25.266+0100] {processor.py:161} INFO - Started process (PID=29787) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:49:25.286+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:49:25.288+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:49:25.287+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:49:25.323+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:49:25.349+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:49:25.349+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:49:25.379+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:49:25.378+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:49:25.412+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.153 seconds
+[2024-02-06T13:50:14.932+0100] {processor.py:161} INFO - Started process (PID=29916) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:50:14.934+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:50:14.936+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:50:14.935+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:50:14.956+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:50:14.985+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:50:14.985+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:50:15.013+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:50:15.013+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:50:15.050+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.123 seconds
+[2024-02-06T13:51:09.741+0100] {processor.py:161} INFO - Started process (PID=30052) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:51:09.744+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:51:09.747+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:51:09.747+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:51:09.765+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:51:09.786+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:51:09.785+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:51:09.813+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:51:09.812+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:51:09.849+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.114 seconds
+[2024-02-06T13:52:01.779+0100] {processor.py:161} INFO - Started process (PID=30177) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:52:01.781+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:52:01.783+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:52:01.782+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:52:01.801+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:52:01.825+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:52:01.825+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:52:01.849+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:52:01.848+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:52:01.889+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.116 seconds
+[2024-02-06T13:53:02.959+0100] {processor.py:161} INFO - Started process (PID=30405) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:53:02.962+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:53:02.964+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:53:02.963+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:53:02.980+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:53:03.001+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:53:03.001+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:53:03.025+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:53:03.025+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:53:03.059+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.105 seconds
+[2024-02-06T13:53:52.487+0100] {processor.py:161} INFO - Started process (PID=30514) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:53:52.489+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:53:52.491+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:53:52.490+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:53:52.508+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:53:52.541+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:53:52.540+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:53:52.569+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:53:52.568+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:53:52.608+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.128 seconds
+[2024-02-06T13:54:43.115+0100] {processor.py:161} INFO - Started process (PID=30659) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:54:43.118+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:54:43.120+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:54:43.120+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:54:43.139+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:54:43.158+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:54:43.158+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:54:43.180+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:54:43.180+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:54:43.215+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.105 seconds
+[2024-02-06T13:55:37.551+0100] {processor.py:161} INFO - Started process (PID=30816) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:55:37.554+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:55:37.556+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:55:37.556+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:55:37.580+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:55:37.611+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:55:37.611+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:55:37.642+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:55:37.642+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:55:37.692+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.149 seconds
+[2024-02-06T13:56:30.726+0100] {processor.py:161} INFO - Started process (PID=30961) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:56:30.737+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:56:30.740+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:56:30.740+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:56:30.758+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:56:30.779+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:56:30.779+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:56:30.802+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:56:30.802+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:56:30.848+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.131 seconds
+[2024-02-06T13:57:28.043+0100] {processor.py:161} INFO - Started process (PID=31131) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:57:28.047+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:57:28.049+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:57:28.048+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:57:28.080+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:57:28.115+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:57:28.114+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:57:28.159+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:57:28.158+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:57:28.212+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.176 seconds
+[2024-02-06T13:57:59.376+0100] {processor.py:161} INFO - Started process (PID=31227) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:57:59.393+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:57:59.405+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:57:59.404+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:57:59.428+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:57:59.463+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:57:59.462+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:57:59.499+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:57:59.499+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:57:59.563+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.203 seconds
+[2024-02-06T13:58:30.730+0100] {processor.py:161} INFO - Started process (PID=31319) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:58:30.734+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:58:30.736+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:58:30.736+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:58:30.759+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:58:30.792+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:58:30.791+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:58:30.828+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:58:30.827+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:58:30.878+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.154 seconds
+[2024-02-06T13:59:30.965+0100] {processor.py:161} INFO - Started process (PID=31493) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:59:30.969+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T13:59:30.971+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:59:30.970+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:59:31.002+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T13:59:31.030+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:59:31.029+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T13:59:31.071+0100] {logging_mixin.py:188} INFO - [2024-02-06T13:59:31.071+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T13:59:31.116+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.160 seconds
+[2024-02-06T14:00:02.594+0100] {processor.py:161} INFO - Started process (PID=31590) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:00:02.599+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T14:00:02.600+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:00:02.600+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:00:02.615+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:00:02.632+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:00:02.632+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T14:00:02.654+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:00:02.654+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T14:00:02.690+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.100 seconds
+[2024-02-06T14:00:33.056+0100] {processor.py:161} INFO - Started process (PID=31683) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:00:33.060+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T14:00:33.063+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:00:33.061+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:00:33.080+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:00:33.101+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:00:33.101+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T14:00:33.125+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:00:33.125+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T14:00:33.159+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.110 seconds
+[2024-02-06T14:01:27.902+0100] {processor.py:161} INFO - Started process (PID=31839) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:01:27.905+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T14:01:27.907+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:01:27.906+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:01:27.921+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:01:27.938+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:01:27.937+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T14:01:27.956+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:01:27.956+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T14:01:28.037+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.138 seconds
+[2024-02-06T14:02:27.580+0100] {processor.py:161} INFO - Started process (PID=32015) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:02:27.585+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T14:02:27.586+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:02:27.585+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:02:27.604+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:02:27.630+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:02:27.630+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T14:02:27.656+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:02:27.656+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T14:02:27.693+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.119 seconds
+[2024-02-06T14:02:58.574+0100] {processor.py:161} INFO - Started process (PID=32141) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:02:58.578+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T14:02:58.580+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:02:58.579+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:02:58.601+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:02:58.627+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:02:58.627+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T14:02:58.668+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:02:58.667+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T14:02:58.715+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.148 seconds
+[2024-02-06T14:03:54.765+0100] {processor.py:161} INFO - Started process (PID=32274) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:03:54.768+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T14:03:54.769+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:03:54.768+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:03:54.789+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:03:54.816+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:03:54.815+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T14:03:54.843+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:03:54.843+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T14:03:54.887+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.127 seconds
+[2024-02-06T14:04:54.940+0100] {processor.py:161} INFO - Started process (PID=32409) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:04:54.943+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T14:04:54.949+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:04:54.945+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:04:54.989+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:04:55.013+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:04:55.012+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T14:04:55.039+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:04:55.039+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T14:04:55.073+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.137 seconds
+[2024-02-06T14:05:54.814+0100] {processor.py:161} INFO - Started process (PID=32548) to work on /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:05:54.816+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/hdfsDag.py for tasks to queue
+[2024-02-06T14:05:54.820+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:05:54.819+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:05:54.837+0100] {processor.py:840} INFO - DAG(s) 'jeniferhdfs' retrieved from /home/ubuntu/airflow/dags/hdfsDag.py
+[2024-02-06T14:05:54.855+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:05:54.855+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-06T14:05:54.876+0100] {logging_mixin.py:188} INFO - [2024-02-06T14:05:54.876+0100] {dag.py:3820} INFO - Setting next_dagrun for jeniferhdfs to 2024-02-06T00:00:00+00:00, run_after=2024-02-07T00:00:00+00:00
+[2024-02-06T14:05:54.916+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/hdfsDag.py took 0.107 seconds

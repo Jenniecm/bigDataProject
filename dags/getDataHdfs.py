@@ -46,8 +46,8 @@ def fetch_and_save_multiple_pages(api_key, start_page, end_page):
 
 if __name__ == "__main__":
     # Fetch data for pages 1 to 500
-    fetch_and_save_multiple_pages(api_key, start_page=1, end_page=500)
+    fetch_and_save_multiple_pages(api_key, start_page=1, end_page=5)
 
 def ingest_all_data(**kwargs):
     print(f"***************************{kwargs}")
-    fetch_and_save_multiple_pages(api_key, start_page=1, end_page=4)
+    fetch_and_save_multiple_pages(api_key, start_page=1, end_page=5)
