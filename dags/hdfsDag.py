@@ -5,9 +5,6 @@ from getDataHdfs import ingest_all_data
 from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
 
 
-def hello():
-    print("hello world")
-
 # Define default_args dictionary to specify the DAG's default parameters
 default_args = {
     'owner': 'jenifer',
@@ -36,8 +33,7 @@ with DAG(
         provide_context=True,
     )
     
-
-
-
     # Set up task dependencies
     task_popular_movies >> submit_spark_job
+
+#pip install apache-airflow-providers-apache-spark

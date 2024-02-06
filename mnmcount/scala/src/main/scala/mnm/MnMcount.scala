@@ -78,3 +78,29 @@ object MnMcount {
 // explodedDF.printSchema(5)
 // val finalDf = explodedDF.select(col("exploded_genre.id").as("genre_id"), col("exploded_genre.name").as("genre_name"))
 // finalDf.show(4)
+
+
+// dabord entrer dans le repertoire ensuite zip -r nom_fichier.zip nom_dossier
+// df.createOrReplaceTempView("nom_de_table")
+// val dfSQL  = spark.sql("")
+// val dfPartitionned = df.repartition(5)
+// val dfOptimised = df.cache() 
+// hdfs dfs -mkdir chemin
+// hdfs dfs -chmod chemin
+// hdfs dfs -chown user:user chemin
+
+// https://spark.apache.org/docs/latest/sql-data-sources-csv.html 
+// https://sparkbyexamples.com/spark/spark-read-options/n 
+// https://spark.apache.org/docs/latest/api/scala/org/apache/spark/ContextAwareIterator.html?search=dataframe 
+// https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html 
+
+//Top 
+//https://spark.apache.org/docs/latest/sql-getting-started.html 
+//exemples de toutes les fonctions du dataframes , et jointures 
+//https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/Dataset.html 
+//Second
+//https://spark.apache.org/docs/latest/ 
+
+
+//Spark programming 
+//https://spark.apache.org/docs/latest/sql-programming-guide.html
